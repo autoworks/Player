@@ -1,0 +1,72 @@
+.Interior {
+  position: relative;
+}
+
+.InteriorControls {
+  position: absolute;
+  top: spacing(2);
+  left: spacing(2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity $duration-standard $easing-standard;
+
+  .active & {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+  }
+}
+
+// Element specified as CSS specificity hack for Pannellum  styles
+div.Interior {
+  [class='pnlm-load-box'] {
+    // display: block !important; // Uncomment to debug
+    z-index: 1;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    border-radius: spacing(1);
+    padding: spacing(1) spacing(2);
+    background-color: rgba($color-base, 0.7);
+
+    > p:first-child {
+      font-size: spacing(1.75);
+      line-height: spacing(2.75);
+      margin: 0;
+      margin-bottom: spacing(1);
+      font-weight: bold;
+    }
+  }
+
+  [class='pnlm-container'] {
+    font-family: inherit;
+  }
+
+  [class='pnlm-lbar'] {
+    overflow: hidden;
+    height: spacing(0.5);
+    border-radius: spacing(0.5);
+    background-color: rgba($color-white, 0.25);
+    border: 0;
+    font-weight: bold;
+  }
+
+  [class='pnlm-lbar-fill'] {
+    background-color: $color-white;
+    height: spacing(0.5);
+  }
+
+  [class='pnlm-lmsg'] {
+    margin: spacing(1) 0 0;
+    height: 16px;
+
+    // &:empty {
+    //   display: none;
+    // }
+  }
+
+  [class*='pnlm-orientation-button'] {
+    display: none !important;
+  }
+}

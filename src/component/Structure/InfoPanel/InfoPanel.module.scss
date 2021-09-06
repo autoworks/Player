@@ -1,0 +1,8 @@
+@import '../../../asset/scss/base.scss';
+
+// .InfoPanel {}
+
+// No specificity hack - sorry IE :(
+:where(.InfoPanelDefaultContent) {
+  @include css-reset;
+}

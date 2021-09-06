@@ -1,0 +1,49 @@
+.Minimap {
+  position: relative;
+  background: black;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px solid $color-grey1;
+}
+
+.MinimapLoader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MinimapInner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  > div > div > div {
+    width: 100%;
+  }
+  // opacity: 0;
+  // transition: opacity $duration-standard $easing-standard;
+
+  // &.loaded {
+  //   opacity: 1;
+  // }
+}
+
+.MinimapIndicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  border: solid $color-accent;
+  @supports (--css: variables) {
+    border: solid var(--color-accent);
+  }
+}

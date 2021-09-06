@@ -1,0 +1,19 @@
+.MediaScrubber {
+  font-variant-numeric: tabular-nums;
+}
+
+.inverse {
+  color: $color-white;
+}
+
+.MediaScrubberSummary {
+  font-size: 13px;
+  font-weight: bold;
+  min-width: spacing(10);
+  text-align: right;
+
+  span {
+    font-weight: normal;
+    opacity: 0.6;
+  }
+}

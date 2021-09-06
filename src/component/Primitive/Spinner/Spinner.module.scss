@@ -1,0 +1,51 @@
+$spinner-duration: 600ms;
+$spinner-step-duration: $spinner-duration / 12;
+
+.Spinner {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  opacity: 0;
+  animation: spinner-reveal 1000ms $easing-standard 1 forwards;
+}
+
+.SpinnerInner {
+  transform: translateZ(0);
+
+  path {
+    opacity: 0;
+    animation: spinner-dot-fade $spinner-duration linear infinite;
+
+    .paused & {
+      animation-play-state: paused;
+    }
+  }
+
+  @for $i from 1 through 12 {
+    path:nth-child(#{$i}) {
+      animation-delay: -($i - 1) * $spinner-step-duration;
+    }
+  }
+
+  svg {
+    vertical-align: bottom;
+    fill: currentColor;
+  }
+}
+
+@keyframes spinner-dot-fade {
+  10% {
+    opacity: 1;
+  }
+  60%,
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes spinner-reveal {
+  100% {
+    opacity: 1;
+  }
+}

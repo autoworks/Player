@@ -1,0 +1,21 @@
+.ViewerHeader {
+  display: inline-block;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: spacing(2);
+  right: spacing(2);
+  z-index: 1;
+
+  > * > * {
+    pointer-events: auto;
+  }
+}
+
+.ViewerHeaderTypeNav {
+  display: none;
+
+  @include mq($breakpoint-tablet) {
+    display: block;
+  }
+}

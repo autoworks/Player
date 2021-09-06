@@ -1,0 +1,68 @@
+.Rotator {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.RotatorContainer {
+  min-height: 200px;
+}
+
+.RotatorItem {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  > div {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
+
+.RotatorHotspots {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.RotatorProgress {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba($color-grey6, 0.7);
+}
+
+.RotatorDebugOverlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: $color-white;
+  font-weight: bold;
+  text-align: center;
+  padding: spacing(1);
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+
+  span {
+    display: block;
+    font-weight: normal;
+  }
+}

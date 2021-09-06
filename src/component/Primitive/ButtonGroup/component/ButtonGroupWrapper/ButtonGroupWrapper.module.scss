@@ -1,0 +1,24 @@
+.ButtonGroupWrapper {
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: $radius-standard;
+  background-color: rgba($color-white, 0.2);
+  padding: spacing(0.5);
+  color: $color-base;
+  white-space: nowrap;
+
+  > * + * {
+    margin-left: spacing(0.5);
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.inverse {
+  color: $color-white;
+  border: 1px solid rgba($color-white, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
+}

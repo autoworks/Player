@@ -1,0 +1,47 @@
+// Not included directly, as needs to be scoped within the top-level component(s)
+// to avoid styles leaking to the parent page
+
+@mixin custom-colours {
+  --color-accent: #{$color-accent};
+  --color-accent-text: #{$color-base};
+}
+
+@mixin css-reset {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  font-size: spacing(1.75);
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: $font-body;
+  user-select: none;
+
+  @media screen and (prefers-reduced-motion: reduce), (update: slow) {
+    * {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  ::selection {
+    background-color: $color-base;
+    color: $color-white;
+    text-shadow: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: bottom;
+    border: 0;
+  }
+}

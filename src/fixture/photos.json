@@ -1,0 +1,399 @@
+[
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/a8db1dbafbf56025fed64ab5641ab5e9:f3eea252485b09a27764adbbbbc7c168",
+    "src": "https://media.auto.works/1600/760/cover/a8db1dbafbf56025fed64ab5641ab5e9:65d2178c71f46b24cc4321240b4c8efa",
+    "minimap": "https://media.auto.works/320/180/cover/a8db1dbafbf56025fed64ab5641ab5e9:3c3603764dc592b5a74c86aa71e77738",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/a8db1dbafbf56025fed64ab5641ab5e9:fc81c135989eee29b90de13b99c69ba1",
+      "800": "https://media.auto.works/800/500/cover/a8db1dbafbf56025fed64ab5641ab5e9:32899a66c855ebe91477d795997d496c",
+      "1000": "https://media.auto.works/1000/625/cover/a8db1dbafbf56025fed64ab5641ab5e9:872efc0e2129f47bbb837c321c088551",
+      "1600": "https://media.auto.works/1600/1000/cover/a8db1dbafbf56025fed64ab5641ab5e9:e04d2331597a078c6bb3be23bb8cd144",
+      "2000": "https://media.auto.works/2000/1250/cover/a8db1dbafbf56025fed64ab5641ab5e9:2c9af27da8b5f2838363ad220ead958c",
+      "3000": "https://media.auto.works/3000/1875/cover/a8db1dbafbf56025fed64ab5641ab5e9:2ff891ac834e0e62ba00bd93f8803abe",
+      "4000": "https://media.auto.works/4000/2500/cover/a8db1dbafbf56025fed64ab5641ab5e9:f72d01aa7cd8d99f2d11c9858e503c88"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/93295e335cb932b847970d764fd65050:f090cf9f537569c75342a6a974114df3",
+    "src": "https://media.auto.works/1600/760/cover/93295e335cb932b847970d764fd65050:24e8061dcd24a1bdeca144e4a0f80188",
+    "minimap": "https://media.auto.works/320/180/cover/93295e335cb932b847970d764fd65050:98c5b6cd0b8f941a7710f1c1534c243b",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/93295e335cb932b847970d764fd65050:1786f7b2b5e1ec5ba355cafa04ffa6a4",
+      "800": "https://media.auto.works/800/500/cover/93295e335cb932b847970d764fd65050:07fc66b4660f6411287802415bbd2440",
+      "1000": "https://media.auto.works/1000/625/cover/93295e335cb932b847970d764fd65050:f40cdc11a912f1d5d41d587e63884c10",
+      "1600": "https://media.auto.works/1600/1000/cover/93295e335cb932b847970d764fd65050:a77557da0b3317d056c6dcd71c7c85b2",
+      "2000": "https://media.auto.works/2000/1250/cover/93295e335cb932b847970d764fd65050:c2febf57521b732c81d634e43dc5b1c6",
+      "3000": "https://media.auto.works/3000/1875/cover/93295e335cb932b847970d764fd65050:25f5c3c39231acb58e42651db0f12964",
+      "4000": "https://media.auto.works/4000/2500/cover/93295e335cb932b847970d764fd65050:65a06ec24c689e41a641b1c3f972721b"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/b40aa859024592950b8aa259775752b4:e129386924be304212449a358491760e",
+    "src": "https://media.auto.works/1600/760/cover/b40aa859024592950b8aa259775752b4:5c50b4f39cb36f95ea7fcabf13e59f12",
+    "minimap": "https://media.auto.works/320/180/cover/b40aa859024592950b8aa259775752b4:2e1f5b2e02827b37877d662a12848e08",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/b40aa859024592950b8aa259775752b4:7f616a0d27b8fa14f93ad0e676b71b83",
+      "800": "https://media.auto.works/800/500/cover/b40aa859024592950b8aa259775752b4:0739823c2724df9289420565902ac46e",
+      "1000": "https://media.auto.works/1000/625/cover/b40aa859024592950b8aa259775752b4:94b39d9d323e6a4d7111db55fa1aade8",
+      "1600": "https://media.auto.works/1600/1000/cover/b40aa859024592950b8aa259775752b4:e77c9e17130789f94ae98c63395235b3",
+      "2000": "https://media.auto.works/2000/1250/cover/b40aa859024592950b8aa259775752b4:53aef01657bc1737c3a8820d96c44995",
+      "3000": "https://media.auto.works/3000/1875/cover/b40aa859024592950b8aa259775752b4:99f2ca7786836bbb1763c0570265d575",
+      "4000": "https://media.auto.works/4000/2500/cover/b40aa859024592950b8aa259775752b4:3ef359856840e70ce14ff6173e0de8a8"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/d0304d3d67bc402cf434312e6a490ff1:a81536f9a66553970c297910d8ad384a",
+    "src": "https://media.auto.works/1600/760/cover/d0304d3d67bc402cf434312e6a490ff1:b10861d5534f735d8af161d42025d7af",
+    "minimap": "https://media.auto.works/320/180/cover/d0304d3d67bc402cf434312e6a490ff1:75cbd043523f5d5777e0fcb3c87d1ed4",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/d0304d3d67bc402cf434312e6a490ff1:6b7d3bb0f98b933902e345fc3f5dd7f3",
+      "800": "https://media.auto.works/800/500/cover/d0304d3d67bc402cf434312e6a490ff1:97723e7bfa9ec94a1ea3424d3be7c253",
+      "1000": "https://media.auto.works/1000/625/cover/d0304d3d67bc402cf434312e6a490ff1:68edb322b7f8116954312812bfa52a65",
+      "1600": "https://media.auto.works/1600/1000/cover/d0304d3d67bc402cf434312e6a490ff1:c9af7be6da36d7142ae4b7c9bca3e7d1",
+      "2000": "https://media.auto.works/2000/1250/cover/d0304d3d67bc402cf434312e6a490ff1:e3447afd36db6b96e126151d6036191e",
+      "3000": "https://media.auto.works/3000/1875/cover/d0304d3d67bc402cf434312e6a490ff1:1d1d809592e8fc2f5e628ffd2c2103c1",
+      "4000": "https://media.auto.works/4000/2500/cover/d0304d3d67bc402cf434312e6a490ff1:7e4d456386fd08289e78e2432145b542"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "wheel",
+    "caption": "15\" Sassari Alloys",
+    "thumbnail": "https://media.auto.works/300/150/cover/8acf230919712e47faf1f56574493269:27a23804b0425114bcfe009dbeabdb77",
+    "src": "https://media.auto.works/1600/760/cover/8acf230919712e47faf1f56574493269:b827dee61efff33cc78610e1ce6c7136",
+    "minimap": "https://media.auto.works/320/180/cover/8acf230919712e47faf1f56574493269:e1e9e6a507e5d271d4d836aaaf07eb62",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/8acf230919712e47faf1f56574493269:79a630ea7137dff2893c1b34a67e163f",
+      "800": "https://media.auto.works/800/500/cover/8acf230919712e47faf1f56574493269:bc3eb4b61cfc06d027e6ed6de7cfc36d",
+      "1000": "https://media.auto.works/1000/625/cover/8acf230919712e47faf1f56574493269:2051ff1db2641d2f40ccc6ea4905f662",
+      "1600": "https://media.auto.works/1600/1000/cover/8acf230919712e47faf1f56574493269:f799afeba707ad60d58ba4cb08aa7d7a",
+      "2000": "https://media.auto.works/2000/1250/cover/8acf230919712e47faf1f56574493269:7a82c4c5ab29f9404e3689da91e8052b",
+      "3000": "https://media.auto.works/3000/1875/cover/8acf230919712e47faf1f56574493269:9fcf2a2c5d7826190a16df133abc077b",
+      "4000": "https://media.auto.works/4000/2500/cover/8acf230919712e47faf1f56574493269:cd87d348bf3c726166810f158b5697ea"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/133d11922895b284a7af803b6e7559fb:e33023501c1f11a0c41cf3210a6df78f",
+    "src": "https://media.auto.works/1600/760/cover/133d11922895b284a7af803b6e7559fb:c8f0100bf6e1964cf5b4fc57925ee9ca",
+    "minimap": "https://media.auto.works/320/180/cover/133d11922895b284a7af803b6e7559fb:300da244ddd924b79ce0af12db15b1ba",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/133d11922895b284a7af803b6e7559fb:6e588ebae2a88b279bfe221f17f89ff2",
+      "800": "https://media.auto.works/800/500/cover/133d11922895b284a7af803b6e7559fb:837feb6ce4145520642a3549929aacce",
+      "1000": "https://media.auto.works/1000/625/cover/133d11922895b284a7af803b6e7559fb:8977da73dbea4167a57617438e8e1b41",
+      "1600": "https://media.auto.works/1600/1000/cover/133d11922895b284a7af803b6e7559fb:e0627a155b35f0292b2952047d218f34",
+      "2000": "https://media.auto.works/2000/1250/cover/133d11922895b284a7af803b6e7559fb:732184ee382f45d13173d1bf88020467",
+      "3000": "https://media.auto.works/3000/1875/cover/133d11922895b284a7af803b6e7559fb:a92d46788d13430f5fe12d6213b8f1c9",
+      "4000": "https://media.auto.works/4000/2500/cover/133d11922895b284a7af803b6e7559fb:bcad2c4bb09db5fd83fc16c141240a62"
+    },
+    "hotspots": [
+      {
+        "x": 0.42485,
+        "y": 0.54331,
+        "tooltip": "Air Conditioning",
+        "id": "climateControl"
+      }
+    ]
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/b831755d0e97fe5dd48ec4468d764cef:e954c87183ff0ffdb1de3f89493d6dfc",
+    "src": "https://media.auto.works/1600/760/cover/b831755d0e97fe5dd48ec4468d764cef:ae04e4d35acb553611aed576ad749ea4",
+    "minimap": "https://media.auto.works/320/180/cover/b831755d0e97fe5dd48ec4468d764cef:4e53ddcce31d85f743114d50f600a260",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/b831755d0e97fe5dd48ec4468d764cef:3e3dca2f8340f21a37430913d705e6b9",
+      "800": "https://media.auto.works/800/500/cover/b831755d0e97fe5dd48ec4468d764cef:3a1ea020be6332dc25c7bd9491d9d2b5",
+      "1000": "https://media.auto.works/1000/625/cover/b831755d0e97fe5dd48ec4468d764cef:b9aeea70d8824bd4b7c46c548f7d6741",
+      "1600": "https://media.auto.works/1600/1000/cover/b831755d0e97fe5dd48ec4468d764cef:68e0609b738cf631302b768ab344a7bc",
+      "2000": "https://media.auto.works/2000/1250/cover/b831755d0e97fe5dd48ec4468d764cef:6181d08840cb7492cb74bb0ea8103218",
+      "3000": "https://media.auto.works/3000/1875/cover/b831755d0e97fe5dd48ec4468d764cef:61c143130cdc0f4fc04fb48f1240d532",
+      "4000": "https://media.auto.works/4000/2500/cover/b831755d0e97fe5dd48ec4468d764cef:f486481332d332bd540e3d198b362385"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/697a29cdcb65822e90b264f471cf542e:7cf4e15cd46267f8062f16ce03668d0d",
+    "src": "https://media.auto.works/1600/760/cover/697a29cdcb65822e90b264f471cf542e:93407aa5f312af05e7d745f8e902d718",
+    "minimap": "https://media.auto.works/320/180/cover/697a29cdcb65822e90b264f471cf542e:bb22060053c34c8cbd1d646fe09aa01f",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/697a29cdcb65822e90b264f471cf542e:fbb1063bd349d023a6e1194decf11d55",
+      "800": "https://media.auto.works/800/500/cover/697a29cdcb65822e90b264f471cf542e:fa314a7b94afdaa87748f0540f2c0dca",
+      "1000": "https://media.auto.works/1000/625/cover/697a29cdcb65822e90b264f471cf542e:42f9a8de8c14246753331011431c1e00",
+      "1600": "https://media.auto.works/1600/1000/cover/697a29cdcb65822e90b264f471cf542e:247e9fe2abce258fd2303ae37d3d47a1",
+      "2000": "https://media.auto.works/2000/1250/cover/697a29cdcb65822e90b264f471cf542e:d1261fcf1b5df9340c12f2775bdd0ed2",
+      "3000": "https://media.auto.works/3000/1875/cover/697a29cdcb65822e90b264f471cf542e:2a3898c89ac403f6485b8a36009f73b4",
+      "4000": "https://media.auto.works/4000/2500/cover/697a29cdcb65822e90b264f471cf542e:ec60dcd4954eb94844fb5afe5965c731"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/9f8cd88efe2c3e9db1bb46c90e361863:d88554d2bc15baa52cdbb0196a022a56",
+    "src": "https://media.auto.works/1600/760/cover/9f8cd88efe2c3e9db1bb46c90e361863:e01945d951d0bb98b1d0d3b5a65380d7",
+    "minimap": "https://media.auto.works/320/180/cover/9f8cd88efe2c3e9db1bb46c90e361863:1f22f24b84b3f78bcc727fadc88516ea",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/9f8cd88efe2c3e9db1bb46c90e361863:4333f4a3248d0c83d11e1436ea744468",
+      "800": "https://media.auto.works/800/500/cover/9f8cd88efe2c3e9db1bb46c90e361863:ad2b35309d272275f7e8fc4696c27089",
+      "1000": "https://media.auto.works/1000/625/cover/9f8cd88efe2c3e9db1bb46c90e361863:0683e6c8f7fd8b0477a31cbe2b029d86",
+      "1600": "https://media.auto.works/1600/1000/cover/9f8cd88efe2c3e9db1bb46c90e361863:080c5bf600744950ab966fbefe430f47",
+      "2000": "https://media.auto.works/2000/1250/cover/9f8cd88efe2c3e9db1bb46c90e361863:4598471272f06560803e7e6afe7fd7be",
+      "3000": "https://media.auto.works/3000/1875/cover/9f8cd88efe2c3e9db1bb46c90e361863:5ef1594275cf32722aac6f508ea40630",
+      "4000": "https://media.auto.works/4000/2500/cover/9f8cd88efe2c3e9db1bb46c90e361863:e2004683ddb8cea37085c00cc0b9c42e"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/0189747106c8b47d5c1eab50a2fee73f:e117686414f74f742b20f2a92a7e6c74",
+    "src": "https://media.auto.works/1600/760/cover/0189747106c8b47d5c1eab50a2fee73f:4d287f8362bc362219b3e9943e376020",
+    "minimap": "https://media.auto.works/320/180/cover/0189747106c8b47d5c1eab50a2fee73f:db16e3b24a87ad3a63cc89ddbe7ff260",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/0189747106c8b47d5c1eab50a2fee73f:c9a7c206d05c5685c871bc79bd68a143",
+      "800": "https://media.auto.works/800/500/cover/0189747106c8b47d5c1eab50a2fee73f:eb04ead91511945c278293f5b9cc2fb0",
+      "1000": "https://media.auto.works/1000/625/cover/0189747106c8b47d5c1eab50a2fee73f:59ee84a67631ea37bf3215df516441e7",
+      "1600": "https://media.auto.works/1600/1000/cover/0189747106c8b47d5c1eab50a2fee73f:a03a8574516855a81fa8effba0b4fa29",
+      "2000": "https://media.auto.works/2000/1250/cover/0189747106c8b47d5c1eab50a2fee73f:f59d64cf451c5e0c3c0a3f292ff8d8a9",
+      "3000": "https://media.auto.works/3000/1875/cover/0189747106c8b47d5c1eab50a2fee73f:6ba23d73424f5b14e032402dabc281f7",
+      "4000": "https://media.auto.works/4000/2500/cover/0189747106c8b47d5c1eab50a2fee73f:f599d9cabd5da58d209c99f8d80181c1"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/c914b3f4981658c9b7563f0ee56f9f43:e548eb21920825e7b8b40ed24372f93d",
+    "src": "https://media.auto.works/1600/760/cover/c914b3f4981658c9b7563f0ee56f9f43:e657a69ffd9cd4c743b786c5795a993b",
+    "minimap": "https://media.auto.works/320/180/cover/c914b3f4981658c9b7563f0ee56f9f43:75354c1ce300ed62e47093bb647699a8",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/c914b3f4981658c9b7563f0ee56f9f43:0a900961856a073ad435d4d4d5ba3ab5",
+      "800": "https://media.auto.works/800/500/cover/c914b3f4981658c9b7563f0ee56f9f43:18d9a0f81a28aa93550c05c3257652b7",
+      "1000": "https://media.auto.works/1000/625/cover/c914b3f4981658c9b7563f0ee56f9f43:4dd9a7ae886357132df38f1dd78d9780",
+      "1600": "https://media.auto.works/1600/1000/cover/c914b3f4981658c9b7563f0ee56f9f43:a3c71b8e250f083f28a687cd7e09bffb",
+      "2000": "https://media.auto.works/2000/1250/cover/c914b3f4981658c9b7563f0ee56f9f43:1043a0f1e758a2fab70e84345aac8b5e",
+      "3000": "https://media.auto.works/3000/1875/cover/c914b3f4981658c9b7563f0ee56f9f43:26e49e93adf8c410aa270669f590bc6f",
+      "4000": "https://media.auto.works/4000/2500/cover/c914b3f4981658c9b7563f0ee56f9f43:7e8e0a2fe4fe788366cc3156b1f7d319"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "gearstick",
+    "hasHotspot": "true",
+    "thumbnail": "https://media.auto.works/300/150/cover/1d45f1802f92e3ff6687135c6eb7e2b8:0b6e65fded3829abe95888611ddac21a",
+    "src": "https://media.auto.works/1600/760/cover/1d45f1802f92e3ff6687135c6eb7e2b8:b506f1b0a26e23d654cb7aa7db92222e",
+    "minimap": "https://media.auto.works/320/180/cover/1d45f1802f92e3ff6687135c6eb7e2b8:d47b3c3dac7d9c9126922ff3ef0ce453",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/1d45f1802f92e3ff6687135c6eb7e2b8:ca3904f5e1770e3855fcbf286acc0442",
+      "800": "https://media.auto.works/800/500/cover/1d45f1802f92e3ff6687135c6eb7e2b8:b4b34d1321d32f9dfe0f2ff3137c33e0",
+      "1000": "https://media.auto.works/1000/625/cover/1d45f1802f92e3ff6687135c6eb7e2b8:0f950c832fb905b8b58b04dd1dcc31e7",
+      "1600": "https://media.auto.works/1600/1000/cover/1d45f1802f92e3ff6687135c6eb7e2b8:4607f947771603cf7d58fa667fb768aa",
+      "2000": "https://media.auto.works/2000/1250/cover/1d45f1802f92e3ff6687135c6eb7e2b8:4b88ee5657dc9f0c71fc4e568e40298d",
+      "3000": "https://media.auto.works/3000/1875/cover/1d45f1802f92e3ff6687135c6eb7e2b8:22aa408dd8fb9548d165b9e5b55938ed",
+      "4000": "https://media.auto.works/4000/2500/cover/1d45f1802f92e3ff6687135c6eb7e2b8:f961da9827d844ca26d0df91201cc9a3"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/a24c7645d0c1e5e9f56d2c437a2c588c:08010d93da10715758349a4e32c9b3db",
+    "src": "https://media.auto.works/1600/760/cover/a24c7645d0c1e5e9f56d2c437a2c588c:86b7062e8213da7186913be7eff6cd3a",
+    "minimap": "https://media.auto.works/320/180/cover/a24c7645d0c1e5e9f56d2c437a2c588c:8aa3a5fb4e7b8dbd811810173bad2a06",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/a24c7645d0c1e5e9f56d2c437a2c588c:f31aae7a733e173ee3990ea0a6e37741",
+      "800": "https://media.auto.works/800/500/cover/a24c7645d0c1e5e9f56d2c437a2c588c:b5eff3b463221a1fc79105ea5da3d9e1",
+      "1000": "https://media.auto.works/1000/625/cover/a24c7645d0c1e5e9f56d2c437a2c588c:07ad563fc33a834543c5db342c35d7a4",
+      "1600": "https://media.auto.works/1600/1000/cover/a24c7645d0c1e5e9f56d2c437a2c588c:f3cccc767170cc3e5bebce655cc723ee",
+      "2000": "https://media.auto.works/2000/1250/cover/a24c7645d0c1e5e9f56d2c437a2c588c:d5561be7be9d05876fbc0286dce7577e",
+      "3000": "https://media.auto.works/3000/1875/cover/a24c7645d0c1e5e9f56d2c437a2c588c:c95ba3ea8e02219d3e519eb5069e235b",
+      "4000": "https://media.auto.works/4000/2500/cover/a24c7645d0c1e5e9f56d2c437a2c588c:a1f4204ff6adc5c6ef49ffc9aeae596e"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/1a6a25bf86a460f860b8e3d76da131cc:2d000273e7469f7a870dfaa6df39d460",
+    "src": "https://media.auto.works/1600/760/cover/1a6a25bf86a460f860b8e3d76da131cc:b48227e5548a6291cfae0d4a471d0ec0",
+    "minimap": "https://media.auto.works/320/180/cover/1a6a25bf86a460f860b8e3d76da131cc:4ffdb97072b72dbc6c8848a0a4e34603",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/1a6a25bf86a460f860b8e3d76da131cc:9fa227014700908aa18aea2cfadb6e2e",
+      "800": "https://media.auto.works/800/500/cover/1a6a25bf86a460f860b8e3d76da131cc:87c00f8ce95e0e81c3aaabcc055f2289",
+      "1000": "https://media.auto.works/1000/625/cover/1a6a25bf86a460f860b8e3d76da131cc:9e1086caf3913b9526eb2ecf0787fc9d",
+      "1600": "https://media.auto.works/1600/1000/cover/1a6a25bf86a460f860b8e3d76da131cc:a64e4752a8cc6f469e6646b84f2883a9",
+      "2000": "https://media.auto.works/2000/1250/cover/1a6a25bf86a460f860b8e3d76da131cc:5821e1d82d3f117b2322c34b714d8967",
+      "3000": "https://media.auto.works/3000/1875/cover/1a6a25bf86a460f860b8e3d76da131cc:da2cd2fa85b0bde35c6953d45706949a",
+      "4000": "https://media.auto.works/4000/2500/cover/1a6a25bf86a460f860b8e3d76da131cc:2147f2e7127c9d5b7452ff77ebc47855"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "appConnect",
+    "caption": "Car Net - App Connect",
+    "thumbnail": "https://media.auto.works/300/150/cover/e99c5d786b6a5129863f4a610b2f4ab4:5995c5a0c96395e36b7e529be58a478e",
+    "src": "https://media.auto.works/1600/760/cover/e99c5d786b6a5129863f4a610b2f4ab4:bc1c0661b475b8c0be3d705907923344",
+    "minimap": "https://media.auto.works/320/180/cover/e99c5d786b6a5129863f4a610b2f4ab4:d638cddb6d506a4a55f1b26d4e0b8fac",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/e99c5d786b6a5129863f4a610b2f4ab4:ec3107c31a698735f43afcab0b6dfbaf",
+      "800": "https://media.auto.works/800/500/cover/e99c5d786b6a5129863f4a610b2f4ab4:d679fc06626cb2586d1d0372e20a44a1",
+      "1000": "https://media.auto.works/1000/625/cover/e99c5d786b6a5129863f4a610b2f4ab4:52b62fd3d988214b04bfa87abf07b32b",
+      "1600": "https://media.auto.works/1600/1000/cover/e99c5d786b6a5129863f4a610b2f4ab4:9eeab045b888ff5f19c217360666ab75",
+      "2000": "https://media.auto.works/2000/1250/cover/e99c5d786b6a5129863f4a610b2f4ab4:a549afde2403b68ef6a6838cb9a10375",
+      "3000": "https://media.auto.works/3000/1875/cover/e99c5d786b6a5129863f4a610b2f4ab4:86ab95f2279b6f7ac48182550db713e4",
+      "4000": "https://media.auto.works/4000/2500/cover/e99c5d786b6a5129863f4a610b2f4ab4:6dc1eacbca6be7977d7bb28c830876c6"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/528df119b2ed5d61bb48876f211ea160:503ba23c59b10f5ae3bc4b50be609007",
+    "src": "https://media.auto.works/1600/760/cover/528df119b2ed5d61bb48876f211ea160:b60260a0bd704dff8b76d91949704eb9",
+    "minimap": "https://media.auto.works/320/180/cover/528df119b2ed5d61bb48876f211ea160:f029aad68ad5d26be6ea4e1812a6550a",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/528df119b2ed5d61bb48876f211ea160:2f21165ce596acd3cc20ce775923530b",
+      "800": "https://media.auto.works/800/500/cover/528df119b2ed5d61bb48876f211ea160:73eb5e72256bb3061542a55721255435",
+      "1000": "https://media.auto.works/1000/625/cover/528df119b2ed5d61bb48876f211ea160:1c57bb84afd26d6641592a8e540b7a61",
+      "1600": "https://media.auto.works/1600/1000/cover/528df119b2ed5d61bb48876f211ea160:b61f988662249af07474a3cab9f1a434",
+      "2000": "https://media.auto.works/2000/1250/cover/528df119b2ed5d61bb48876f211ea160:95187f3167b9ff16c19a29e497dfe422",
+      "3000": "https://media.auto.works/3000/1875/cover/528df119b2ed5d61bb48876f211ea160:c071c82d5000f7d04a319d49f4b839cd",
+      "4000": "https://media.auto.works/4000/2500/cover/528df119b2ed5d61bb48876f211ea160:3e08c7dc3acf44fa304a124bee731300"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "bluetooth",
+    "caption": "Bluetooth",
+    "thumbnail": "https://media.auto.works/300/150/cover/dd51c600d1b982a6983475f403417879:a0002115987684eca55583dea976db50",
+    "src": "https://media.auto.works/1600/760/cover/dd51c600d1b982a6983475f403417879:89a0c229cbe3818ae768b05ae96bc572",
+    "minimap": "https://media.auto.works/320/180/cover/dd51c600d1b982a6983475f403417879:69bd136d33592e4015cecdc5f019d55e",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/dd51c600d1b982a6983475f403417879:4caab29c1d0583dedeedc661ca7e5f67",
+      "800": "https://media.auto.works/800/500/cover/dd51c600d1b982a6983475f403417879:dd360565336c7bd424576fbf06db32ee",
+      "1000": "https://media.auto.works/1000/625/cover/dd51c600d1b982a6983475f403417879:84c7c6d2a4a5eeb933b36e0fca11c88c",
+      "1600": "https://media.auto.works/1600/1000/cover/dd51c600d1b982a6983475f403417879:7a7b0a7f3efbc784e507e7ed2c30f053",
+      "2000": "https://media.auto.works/2000/1250/cover/dd51c600d1b982a6983475f403417879:8a4469ce2601ebb310d2d213db4aef87",
+      "3000": "https://media.auto.works/3000/1875/cover/dd51c600d1b982a6983475f403417879:46513d4c211313a43edb413eaaa643ea",
+      "4000": "https://media.auto.works/4000/2500/cover/dd51c600d1b982a6983475f403417879:c1b683085934bc1c9a8e71b0eaef5459"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "climateControl",
+    "caption": "",
+    "hasHotspot": true,
+    "thumbnail": "https://media.auto.works/300/150/cover/90c04438edc881d74080de7dd50e7cf9:fd018fb305eb10ef243c956329b502a3",
+    "src": "https://media.auto.works/1600/760/cover/90c04438edc881d74080de7dd50e7cf9:bea87bec97adb4c13e48f03994a3865c",
+    "minimap": "https://media.auto.works/320/180/cover/90c04438edc881d74080de7dd50e7cf9:adb08ff3724529578bafead85e9fbbe4",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/90c04438edc881d74080de7dd50e7cf9:63eef4ca2f810e8db899a137aaf1c93f",
+      "800": "https://media.auto.works/800/500/cover/90c04438edc881d74080de7dd50e7cf9:f2718e8479f06ef94551a123ceabc587",
+      "1000": "https://media.auto.works/1000/625/cover/90c04438edc881d74080de7dd50e7cf9:ba576a1847e1388365bbe99d04522cf0",
+      "1600": "https://media.auto.works/1600/1000/cover/90c04438edc881d74080de7dd50e7cf9:fca28b5381b6a3e66febcbcf333aecc9",
+      "2000": "https://media.auto.works/2000/1250/cover/90c04438edc881d74080de7dd50e7cf9:2dca7a3ce0fd5de1367aa444198c6afc",
+      "3000": "https://media.auto.works/3000/1875/cover/90c04438edc881d74080de7dd50e7cf9:568745951db5c181d96ea0c6b6dd3107",
+      "4000": "https://media.auto.works/4000/2500/cover/90c04438edc881d74080de7dd50e7cf9:fc2e1a295c2c6f248d1721fba7a2af0b"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:df668946cdeb614f88e282d31a213393",
+    "src": "https://media.auto.works/1600/760/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:ecfc0fdd5620a497fcaa5e7230669996",
+    "minimap": "https://media.auto.works/320/180/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:f10de0e1712f586d975ef2a1cb7d2e25",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:969de90c27656a1ccfa68980b51adc8d",
+      "800": "https://media.auto.works/800/500/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:f2e5f31d794cb61ad3aa4b63c786b29f",
+      "1000": "https://media.auto.works/1000/625/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:c5e1d2a1afedd3baa3e770103ec4aaa0",
+      "1600": "https://media.auto.works/1600/1000/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:6dd8993f88b6c947a74ced78217e2092",
+      "2000": "https://media.auto.works/2000/1250/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:6bdff5cf255dc142d7b1fef1c343728f",
+      "3000": "https://media.auto.works/3000/1875/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:832b1c3c3d67333bd01da0f41aa3149c",
+      "4000": "https://media.auto.works/4000/2500/cover/2fc4bc67fe3dea2465813c5a9a8a0aa1:4866122d20d2edecfc2e62f4bcdf02bc"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/162b17f6f5329279fb9274810ddc0c82:70de0567618888a746d7ffd0613e8e01",
+    "src": "https://media.auto.works/1600/760/cover/162b17f6f5329279fb9274810ddc0c82:3de269031cc237500eb1e61a2bc63e6b",
+    "minimap": "https://media.auto.works/320/180/cover/162b17f6f5329279fb9274810ddc0c82:7e7b35a630cb09bb6d2b8c5b69e497be",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/162b17f6f5329279fb9274810ddc0c82:8cf716bef547f7ebcbceffd99195fbd9",
+      "800": "https://media.auto.works/800/500/cover/162b17f6f5329279fb9274810ddc0c82:99cca31b6aa185f0562a726bac31a565",
+      "1000": "https://media.auto.works/1000/625/cover/162b17f6f5329279fb9274810ddc0c82:0edf38baa42f74f87199fe43c3c9a6c8",
+      "1600": "https://media.auto.works/1600/1000/cover/162b17f6f5329279fb9274810ddc0c82:a3f1304c83d0c402709d5482b4906cb8",
+      "2000": "https://media.auto.works/2000/1250/cover/162b17f6f5329279fb9274810ddc0c82:3ac95094f0ec1112839809173b0fcbc1",
+      "3000": "https://media.auto.works/3000/1875/cover/162b17f6f5329279fb9274810ddc0c82:c95324d822fd8e99776e0c02a4fb1f37",
+      "4000": "https://media.auto.works/4000/2500/cover/162b17f6f5329279fb9274810ddc0c82:f27d888a734776386fc863a8c87791d6"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "mirror",
+    "caption": "“Mirror”",
+    "hasHotspot": "true",
+    "thumbnail": "https://media.auto.works/300/150/cover/8b7b27b52cb6e571f53d86bab0e40d3c:7a31077ccc40ae084bd71feffcb02934",
+    "src": "https://media.auto.works/1600/760/cover/8b7b27b52cb6e571f53d86bab0e40d3c:c82d9f3954075c20976544c6e2743df2",
+    "minimap": "https://media.auto.works/320/180/cover/8b7b27b52cb6e571f53d86bab0e40d3c:e7deb245e494722b91325754cf6a3642",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/8b7b27b52cb6e571f53d86bab0e40d3c:91a0b673e2e50349b299eacb3e84c984",
+      "800": "https://media.auto.works/800/500/cover/8b7b27b52cb6e571f53d86bab0e40d3c:75ff0e35e11c26763832191c23f856b8",
+      "1000": "https://media.auto.works/1000/625/cover/8b7b27b52cb6e571f53d86bab0e40d3c:696f450bb90c3359048b41b667059718",
+      "1600": "https://media.auto.works/1600/1000/cover/8b7b27b52cb6e571f53d86bab0e40d3c:d396dde6ba6b80ba5a3be7ef75474847",
+      "2000": "https://media.auto.works/2000/1250/cover/8b7b27b52cb6e571f53d86bab0e40d3c:8edac066d255dd91fcca3e2ed0338aeb",
+      "3000": "https://media.auto.works/3000/1875/cover/8b7b27b52cb6e571f53d86bab0e40d3c:541ee29c7864dbbeb446ba5d0c3ea560",
+      "4000": "https://media.auto.works/4000/2500/cover/8b7b27b52cb6e571f53d86bab0e40d3c:4da77b57320fc8736f20d55d3da0929c"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/56d1bcc8f721e449359b88e1274c12b0:ec11d00bfc1c2ad5925ca9285bde579c",
+    "src": "https://media.auto.works/1600/760/cover/56d1bcc8f721e449359b88e1274c12b0:ccf04587145a2f0815898421ca6072f3",
+    "minimap": "https://media.auto.works/320/180/cover/56d1bcc8f721e449359b88e1274c12b0:cb83b7cb83d11af483727dd12bb8c511",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/56d1bcc8f721e449359b88e1274c12b0:3196a8800e528a97f35b6ab5b7ded7d6",
+      "800": "https://media.auto.works/800/500/cover/56d1bcc8f721e449359b88e1274c12b0:4a0a89b972fbf75583615d6b5087c87d",
+      "1000": "https://media.auto.works/1000/625/cover/56d1bcc8f721e449359b88e1274c12b0:760e6b4b2dfe4a560d918d1335e872d7",
+      "1600": "https://media.auto.works/1600/1000/cover/56d1bcc8f721e449359b88e1274c12b0:2ab347b8387416c9ff90cf0c6c62c2d3",
+      "2000": "https://media.auto.works/2000/1250/cover/56d1bcc8f721e449359b88e1274c12b0:67433bb32cc2cfbf9d32d64178271974",
+      "3000": "https://media.auto.works/3000/1875/cover/56d1bcc8f721e449359b88e1274c12b0:f0b63adef16cc1fe8a4b55201b0bbbb0",
+      "4000": "https://media.auto.works/4000/2500/cover/56d1bcc8f721e449359b88e1274c12b0:efae52eb29ac911b660afb0f9ef9f8b9"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:dea729cd20b0c3bd5ace6d1600a6b460",
+    "src": "https://media.auto.works/1600/760/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:2a9e6de0dd3eb73791f8080c780158c7",
+    "minimap": "https://media.auto.works/320/180/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:051404eb31c25824488f4a7762a28273",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:ccc60e904e603966e2b3a53564668076",
+      "800": "https://media.auto.works/800/500/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:bd42f136260a0b85957ab04db9d6b204",
+      "1000": "https://media.auto.works/1000/625/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:c845fa10d76b0f9aa67b7eb5829849a5",
+      "1600": "https://media.auto.works/1600/1000/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:8276351bb7cfe1911a724c71cd752a9c",
+      "2000": "https://media.auto.works/2000/1250/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:6278ede7048a73fb26119cd6ad701cb2",
+      "3000": "https://media.auto.works/3000/1875/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:205b3a09f5304b4178d05aadc561e849",
+      "4000": "https://media.auto.works/4000/2500/cover/33678bb8fbd0d82c8f9d8ddb8240fed6:2db920caf8837fdeb19410bba77ceafa"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/bf46e96ed23380fd5c0f33624beeb723:037ebe82eec9f61ff9e8c2c86edc5059",
+    "src": "https://media.auto.works/1600/760/cover/bf46e96ed23380fd5c0f33624beeb723:92f9cda20351bbfe10230d6b67118e1a",
+    "minimap": "https://media.auto.works/320/180/cover/bf46e96ed23380fd5c0f33624beeb723:f4d616e2b9f773025b689a9b9dfbcdf2",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/bf46e96ed23380fd5c0f33624beeb723:5c8bf27c803dc583e733d2ce68a47ee1",
+      "800": "https://media.auto.works/800/500/cover/bf46e96ed23380fd5c0f33624beeb723:d48e0f77ab843a1b034d16146a757921",
+      "1000": "https://media.auto.works/1000/625/cover/bf46e96ed23380fd5c0f33624beeb723:0aa3de3196d7eba4513e6cf5d723b77d",
+      "1600": "https://media.auto.works/1600/1000/cover/bf46e96ed23380fd5c0f33624beeb723:0217fe59189e98a0df7ca3d7ac6a1f2e",
+      "2000": "https://media.auto.works/2000/1250/cover/bf46e96ed23380fd5c0f33624beeb723:006445fdaad5c5c4f8be3e1870815be9",
+      "3000": "https://media.auto.works/3000/1875/cover/bf46e96ed23380fd5c0f33624beeb723:14f04b77d7c9fff0439b9e97228f435f",
+      "4000": "https://media.auto.works/4000/2500/cover/bf46e96ed23380fd5c0f33624beeb723:c2b6b0a23629f4a3cace2af60639be5e"
+    }
+  },
+  {
+    "type": "photo",
+    "thumbnail": "https://media.auto.works/300/150/cover/8fa71d8fb89fd3029b38eee5c4075993:2394d7f21dda3a92ddf3a9b0fe15597c",
+    "src": "https://media.auto.works/1600/760/cover/8fa71d8fb89fd3029b38eee5c4075993:fd4435f0d0d8cf94f296ae31788f8916",
+    "minimap": "https://media.auto.works/320/180/cover/8fa71d8fb89fd3029b38eee5c4075993:e3698d8935a1f4e533ea7522acf6c95b",
+    "srcSet": {
+      "560": "https://media.auto.works/560/350/cover/8fa71d8fb89fd3029b38eee5c4075993:d568a7985f3aa0fd5c90c505f8a9c6ed",
+      "800": "https://media.auto.works/800/500/cover/8fa71d8fb89fd3029b38eee5c4075993:88b61b1b33a0bd0705276dee8fae18f1",
+      "1000": "https://media.auto.works/1000/625/cover/8fa71d8fb89fd3029b38eee5c4075993:bdd7913709de322167f42a97db8c8f14",
+      "1600": "https://media.auto.works/1600/1000/cover/8fa71d8fb89fd3029b38eee5c4075993:2fe0aeb04fe406f2dc7ac5642262d26d",
+      "2000": "https://media.auto.works/2000/1250/cover/8fa71d8fb89fd3029b38eee5c4075993:bf523146eee8517fc9c9185fc4bd21b5",
+      "3000": "https://media.auto.works/3000/1875/cover/8fa71d8fb89fd3029b38eee5c4075993:a5a2409ba8bc8596676176ad76aa81c5",
+      "4000": "https://media.auto.works/4000/2500/cover/8fa71d8fb89fd3029b38eee5c4075993:1c575340869760f7b18fa3622a57a1d2"
+    }
+  }
+]

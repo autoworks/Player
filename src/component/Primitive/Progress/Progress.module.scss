@@ -1,0 +1,28 @@
+.Progress {
+  position: relative;
+}
+
+.ProgressTrack {
+  overflow: hidden;
+  height: spacing(0.5);
+  border-radius: spacing(0.5);
+  background: $color-grey1;
+
+  .inverse & {
+    background-color: rgba($color-white, 0.25);
+  }
+}
+
+.ProgressBar {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: $color-base;
+  vertical-align: top;
+
+  .inverse & {
+    background-color: $color-white;
+  }
+}

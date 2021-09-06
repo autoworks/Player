@@ -1,0 +1,24 @@
+WEBVTT - This file has cues.
+
+NOTE
+For more info see:
+https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
+
+STYLE
+::cue(v[voice="Esme"]) { color: cyan }
+::cue(v[voice="Mary"]) { color: lime }
+::cue(i) { font-style: italic }
+::cue(.loud) { font-size: 2em }
+::cue-region {background: red;}
+
+00:00:00.000 --> 00:00:02.000
+<v.first.loud Esme>Here are some example captions
+
+00:00:02.000 --> 00:00:04.000
+<v Mary>No way!
+
+00:00:04.000 --> 00:00:06.000
+<v Esme>Yep!</v> <i>laughter</i>
+
+00:00:06.000 --> 00:00:08.000
+<v.loud Mary>That’s awesome!

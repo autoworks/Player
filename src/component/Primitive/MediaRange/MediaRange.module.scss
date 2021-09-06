@@ -1,0 +1,112 @@
+$range--track-height: spacing(0.5);
+$range--thumb-height: spacing(2);
+
+@mixin rangeCommonTrackStyles() {
+  width: 100%;
+  height: $range--track-height;
+  background: none;
+  border: 0;
+}
+
+@mixin rangeCommonTrackFocusStyles() {
+  background-color: rgba($color-white, 0.3);
+}
+
+@mixin rangeCommonThumbStyles() {
+  -webkit-appearance: none;
+  border: 0;
+  height: $range--thumb-height;
+  width: $range--thumb-height;
+  border-radius: 50%;
+  margin-top: ($range--thumb-height - $range--track-height) * -0.5;
+  background-color: $color-grey4;
+}
+
+@mixin rangeCommonThumbStylesInverse() {
+  background-color: $color-white;
+}
+
+@mixin rangeCommonThumbActiveStyles() {
+  //
+}
+
+.MediaRange {
+  background-color: rgba($color-grey4, 0.3);
+  background-size: 0 100%; // Set via JS
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: 0 50%;
+  height: $range--track-height;
+  border-radius: $range--track-height;
+  transform: translateY(-2px);
+  vertical-align: middle;
+  background-image: linear-gradient(to right, $color-accent, $color-accent);
+  @supports (--css: variables) {
+    background-image: linear-gradient(
+      to right,
+      var(--color-accent),
+      var(--color-accent)
+    );
+  }
+
+  &.inverse {
+    background-color: rgba($color-white, 0.3);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  // Webkit
+
+  /* stylelint-disable-next-line no-duplicate-selectors */
+  & {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-slider-runnable-track {
+    @include rangeCommonTrackStyles();
+  }
+
+  &::-webkit-slider-thumb {
+    @include rangeCommonThumbStyles();
+  }
+
+  &.inverse::-webkit-slider-thumb {
+    @include rangeCommonThumbStylesInverse();
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    @include rangeCommonTrackFocusStyles();
+  }
+
+  &:active::-webkit-slider-thumb {
+    @include rangeCommonThumbActiveStyles();
+  }
+
+  // Firefox
+
+  &::-moz-range-track {
+    @include rangeCommonTrackStyles();
+  }
+
+  &::-moz-range-thumb {
+    @include rangeCommonThumbStyles();
+  }
+
+  &.inverse::-moz-range-thumb {
+    @include rangeCommonThumbStylesInverse();
+  }
+
+  &:focus::-moz-range-track {
+    @include rangeCommonTrackFocusStyles();
+  }
+
+  &:active::-moz-range-thumb {
+    @include rangeCommonThumbActiveStyles();
+  }
+
+  &::-moz-focus-outer {
+    border: 0;
+  }
+}

@@ -1,0 +1,33 @@
+// .ViewerPlaceholder {}
+
+.ViewerPlaceholderFilmstrip {
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: spacing(1);
+  padding-bottom: spacing(1);
+  position: relative;
+  padding-left: spacing(1);
+
+  @include mq($breakpoint-tablet) {
+    padding-left: spacing(7);
+  }
+}
+
+.ViewerPlaceholderFilmstripFrame {
+  display: inline-block;
+  width: 140px;
+  border-radius: spacing(1);
+  overflow: hidden;
+
+  @include mq($breakpoint-tablet) {
+    width: 160px;
+  }
+
+  @include mq($breakpoint-desktop) {
+    width: 200px;
+  }
+
+  & + & {
+    margin-left: spacing(1);
+  }
+}

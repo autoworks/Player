@@ -1,0 +1,49 @@
+.ButtonGroupItem {
+  position: relative;
+  display: inline-block;
+  padding: spacing(0.5) spacing(1);
+  border-radius: $radius-small !important; // avoid specificity issue with compiled reset
+  color: inherit;
+  transition: all $duration-standard $easing-standard;
+  font-weight: 700;
+  font-size: spacing(1.5);
+  line-height: spacing(2.5);
+  font-family: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-transform: none;
+
+  &:hover,
+  &:focus {
+    outline: 0;
+    background-color: rgba($color-white, 0.2);
+    transition-duration: $duration-shortest;
+  }
+
+  &.active {
+    color: $color-base;
+    background-color: $color-accent;
+    @supports (--css: variables) {
+      background-color: var(--color-accent);
+      color: var(--color-accent-text);
+    }
+  }
+}
+
+.tight {
+  padding: spacing(0.25);
+}
+
+.ButtonGroupItemIcon {
+  transition: opacity $duration-standard $easing-standard;
+  margin-right: 6px;
+  opacity: 0.5;
+
+  .ButtonGroupItem:hover &,
+  .ButtonGroupItem:focus &,
+  .ButtonGroupItem.active & {
+    opacity: 1;
+    transition-duration: $duration-shortest;
+  }
+}

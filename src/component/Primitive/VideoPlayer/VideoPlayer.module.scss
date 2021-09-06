@@ -1,0 +1,109 @@
+div.VideoPlayer {
+  color: $color-grey4;
+  background: $color-base;
+}
+
+.VideoPlayerInner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.VideoPlayerInnerOverlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba($color-base, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: VideoPlayerInnerOverlay $duration-standard 1s 1 forwards;
+}
+
+@keyframes VideoPlayerInnerOverlay {
+  100% {
+    opacity: 1;
+  }
+}
+
+.VideoPlayerInnerInner {
+  video {
+    width: 100%;
+  }
+}
+
+.VideoPlayerControls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: spacing(2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity $duration-standard $easing-standard;
+
+  @include mq($breakpoint-tablet) {
+    padding: spacing(4);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: spacing(-5);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+    transition: transform $duration-standard $easing-standard;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+
+  .VideoPlayer:hover &,
+  .forceControls & {
+    opacity: 1;
+    pointer-events: auto;
+
+    &::before {
+      transform: translateY(0);
+    }
+  }
+}
+
+.VideoPlayerControlsInner {
+  position: relative;
+}
+
+.VideoPlayerScrubber {
+  padding: 0 spacing(0.5) spacing(2);
+}
+
+.VideoPlayerVolume {
+  text-align: right;
+  min-width: spacing(22);
+}
+
+div.inverse {
+  color: $color-white;
+
+  .VideoPlayerControls {
+    &::before {
+      background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0)
+      );
+    }
+  }
+}

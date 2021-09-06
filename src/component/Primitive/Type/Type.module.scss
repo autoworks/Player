@@ -1,0 +1,58 @@
+.Type {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.display2 {
+  // font-family: $font-heading;
+  font-size: spacing(3); // 24
+  line-height: spacing(4); // 32
+  font-weight: 600;
+}
+
+.display1 {
+  // font-family: $font-heading;
+  font-size: spacing(2.5); // 20
+  line-height: spacing(3); // 24
+  font-weight: 600;
+}
+
+.base {
+  font-size: spacing(1.75); // 14
+  line-height: spacing(2.75); // 22
+}
+
+// .small {
+//   font-family: $font-heading;
+//   font-size: spacing(1.5); // 12
+//   line-height: spacing(2); // 16
+//   color: $color-grey3;
+
+//   a {
+//     color: $color-base;
+//     font-weight: 600;
+
+//     &:hover,
+//     &:active,
+//     &:focus {
+//       color: $color-grey6;
+//     }
+//   }
+// }
+
+// .tiny {
+//   font-size: spacing(1.375);
+//   line-height: spacing(2);
+// }
+
+// Modifiers
+
+.bold {
+  font-weight: 600;
+}
+
+.tight {
+  line-height: 1;
+}

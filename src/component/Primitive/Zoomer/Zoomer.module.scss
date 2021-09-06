@@ -1,0 +1,80 @@
+.Zoomer {
+  position: relative;
+  background: black;
+}
+
+.ZoomerLoader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ZoomerInner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.ZoomerControls {
+  position: absolute;
+  top: spacing(2);
+  left: spacing(2);
+  z-index: 1;
+}
+
+.ZoomerButtonPlus,
+.ZoomerButtonMinus {
+  padding: 0;
+  width: auto;
+
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.ZoomerButtonMinus {
+  margin-left: spacing(1);
+}
+
+.ZoomerButtonReset {
+  // position: absolute;
+  // top: spacing(2);
+  // left: spacing(13.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: all $duration-standard $easing-standard;
+  // z-index: 1;
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.ZoomerMinimap {
+  width: 200px;
+  position: absolute;
+  top: spacing(2);
+  right: spacing(2);
+  opacity: 0;
+  pointer-events: none;
+  transition: all $duration-standard $easing-standard;
+  display: none;
+
+  @include mq($breakpoint-tablet) {
+    display: block;
+  }
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

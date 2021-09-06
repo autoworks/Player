@@ -1,0 +1,26 @@
+.Viewer {
+  position: relative;
+}
+
+.ViewerTouchIcon {
+  position: absolute;
+  top: spacing(2);
+  left: spacing(2);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity $duration-standard $easing-standard;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  &.alignRight {
+    left: auto;
+    right: spacing(2);
+  }
+
+  @include mq($breakpoint-tablet) {
+    display: none;
+  }
+}

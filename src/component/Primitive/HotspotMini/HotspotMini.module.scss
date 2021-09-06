@@ -1,0 +1,25 @@
+.HotspotMini {
+  position: relative;
+  overflow: hidden;
+  width: spacing(2);
+  height: spacing(2);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px $color-accent inset;
+  @supports (--css: variables) {
+    box-shadow: 0 0 0 3px var(--color-accent) inset;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.2;
+    background-color: $color-accent;
+    @supports (--css: variables) {
+      background-color: var(--color-accent);
+    }
+  }
+}

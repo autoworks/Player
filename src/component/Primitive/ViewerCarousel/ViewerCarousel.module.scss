@@ -1,0 +1,55 @@
+.ViewerCarousel {
+  @import './vendor/swiper.scss';
+
+  position: relative;
+}
+
+.ViewerCarouselPrimary {
+  position: relative;
+  background-color: $color-base;
+}
+
+.ViewerCarouselSecondary {
+  position: relative;
+}
+
+.ViewerCarouselButton {
+  position: absolute;
+  bottom: 0;
+  top: spacing(1);
+  width: spacing(6);
+  z-index: 1;
+  margin-bottom: spacing(1);
+  display: none;
+
+  @include mq($breakpoint-tablet) {
+    display: block;
+  }
+}
+
+.ViewerCarouselButtonPrevious {
+  left: 0;
+}
+
+.ViewerCarouselButtonNext {
+  right: 0;
+}
+
+.ViewerCarouselLogo {
+  position: absolute;
+  bottom: spacing(1);
+  right: spacing(1);
+  z-index: 2;
+  display: none;
+  pointer-events: none;
+  transition: opacity $duration-standard $easing-standard;
+  opacity: 1;
+
+  @include mq($breakpoint-tablet) {
+    display: block;
+  }
+
+  &.inactive {
+    opacity: 0;
+  }
+}

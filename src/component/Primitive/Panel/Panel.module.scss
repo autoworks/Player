@@ -1,0 +1,43 @@
+.Panel {
+  background-color: $color-white;
+  box-shadow: 0 2px 6px -4px rgba($color-grey6, 0.5);
+  height: 100%;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: spacing(2);
+    pointer-events: none;
+  }
+
+  &::before {
+    top: 0;
+    height: spacing(2.5);
+    background-image: linear-gradient(
+      to bottom,
+      rgba($color-white, 0.9),
+      rgba($color-white, 0)
+    );
+  }
+
+  &::after {
+    bottom: 0;
+    height: spacing(5);
+    background-image: linear-gradient(
+      to top,
+      rgba($color-white, 0.9),
+      rgba($color-white, 0)
+    );
+  }
+}
+
+.PanelContent {
+  padding: spacing(2) spacing(2) spacing(5);
+  max-width: spacing(50);
+  margin-left: auto;
+  margin-right: auto;
+  user-select: auto;
+}

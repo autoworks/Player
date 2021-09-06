@@ -1,0 +1,60 @@
+@import '../../../asset/scss/base.scss';
+
+.Player {
+  @include custom-colours;
+
+  position: relative;
+  background-color: $color-grey0;
+}
+
+.PlayerContent {
+  @include mq($breakpoint-desktop) {
+    display: flex;
+    padding: spacing(2.5);
+    gap: spacing(2.5);
+
+    .infoOnLeft & {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.PlayerViewer {
+  @include css-reset;
+
+  min-width: 0; // Flexbox fix
+  flex-basis: calc(66% - #{spacing(1)}); // Required for IE11
+  overflow: hidden; // Required for IE11
+
+  @include mq($breakpoint-desktop) {
+    margin-bottom: spacing(-1);
+  }
+
+  .infoHidden & {
+    flex-basis: 100%;
+  }
+}
+
+.PlayerInfo {
+  flex: 0 0 33%;
+  user-select: auto;
+  position: relative;
+
+  @include mq($breakpoint-desktop) {
+    padding-left: spacing(1);
+    .infoOnLeft & {
+      padding-left: 0;
+      padding-right: spacing(1);
+    }
+  }
+}
+
+.PlayerInfoInner {
+  @include mq($breakpoint-desktop) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

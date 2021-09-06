@@ -1,0 +1,33 @@
+$gap-list: (
+  'small': 0.5,
+  'medium': 1,
+  'large': 2
+);
+
+.Inline {
+  display: flex;
+  flex-wrap: wrap;
+  pointer-events: none;
+
+  > * {
+    pointer-events: auto;
+  }
+}
+
+.shrink {
+  display: inline-flex;
+}
+
+@each $key, $value in $gap-list {
+  .#{$key} {
+    margin: spacing($value * -1) !important;
+    & > * {
+      margin: spacing($value) !important;
+    }
+  }
+}
+
+// :export {
+//   /* stylelint-disable-next-line property-no-unknown */
+//   gaps: map-keys($gap-list);
+// }

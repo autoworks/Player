@@ -1,0 +1,113 @@
+.FilmstripFrame {
+  user-select: none;
+  position: relative;
+  width: 140px;
+
+  @include mq($breakpoint-tablet) {
+    width: 160px;
+  }
+
+  @include mq($breakpoint-desktopMedium) {
+    width: 200px;
+  }
+}
+
+.FilmstripFrameInner {
+  position: relative;
+  overflow: hidden;
+  border-radius: $radius-standard;
+
+  img {
+    -webkit-user-drag: none;
+  }
+}
+
+.FilmstripFrameOverlay {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 0 0 $radius-standard $radius-standard;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  .hasIcon & {
+    top: 0;
+    border-top-left-radius: $radius-standard;
+    border-top-right-radius: $radius-standard;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($color-grey6, 0.5);
+
+    @supports (mix-blend-mode: multiply) {
+      background-color: $color-grey4;
+      mix-blend-mode: multiply;
+    }
+  }
+}
+
+.FilmstripFrameOverlayInner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3px spacing(0.5) 6px;
+  font-size: 12px;
+  color: $color-white;
+  font-weight: 700;
+  text-align: center;
+
+  @include mq($breakpoint-desktopMedium) {
+    font-size: 13px;
+  }
+
+  .hasIcon & {
+    font-size: 13px;
+
+    @include mq($breakpoint-desktopMedium) {
+      font-size: 15px;
+    }
+  }
+}
+
+.FilmStripFrameHighlight {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: $radius-standard;
+  transition: box-shadow $duration-standard $easing-standard;
+  box-shadow: 0 0 0 0 $color-accent inset;
+  @supports (--css: variables) {
+    box-shadow: 0 0 0 0 var(--color-accent) inset;
+  }
+
+  .inverse & {
+    box-shadow: 0 0 0 1px $color-white inset, 0 0 0 1px transparent;
+  }
+
+  .active & {
+    transition-duration: $duration-short;
+    box-shadow: 0 0 0 1px $color-accent inset, 0 0 0 2px $color-accent;
+    @supports (--css: variables) {
+      box-shadow: 0 0 0 1px var(--color-accent) inset,
+        0 0 0 2px var(--color-accent);
+    }
+  }
+}
+
+.FilmStripFrameHotspot {
+  position: absolute;
+  top: spacing(1);
+  right: spacing(1);
+}

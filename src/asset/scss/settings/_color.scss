@@ -1,0 +1,22 @@
+$color-base: #292a2e;
+$color-accent: #19c784;
+
+$color-white: #fff;
+$color-grey0: #f5f5f5;
+$color-grey1: #d8d8d8;
+$color-grey2: #c3c3c4;
+$color-grey3: #999;
+$color-grey4: #747476;
+$color-grey6: #292a2d;
+
+$color-status-success: #19c784;
+$color-status-notice: #00b9ff;
+$color-status-warning: #ff8000;
+$color-status-error: #a61225;
+
+$color-status-list: (
+  success: $color-status-success,
+  notice: $color-status-notice,
+  warning: $color-status-warning,
+  error: $color-status-error
+);

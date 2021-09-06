@@ -1,0 +1,10 @@
+.Tag {
+  display: inline-block;
+  background: $color-grey0;
+  color: $color-base;
+  border: 1px solid $color-grey2;
+  border-radius: $radius-small;
+  padding: (spacing(0.5) - 1) spacing(1);
+  font-size: spacing(1.5);
+  line-height: spacing(1.75);
+}

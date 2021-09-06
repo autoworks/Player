@@ -1,0 +1,371 @@
+[
+  {
+    "type": "photo",
+    "id": "rearLeft",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/20-12123202-1.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/20-12123202-1.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "wheel",
+    "caption": "15\" Sassari Alloys",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122637-322.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122637-322.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "interiorDriver",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122637-637.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122637-637.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "front",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/06-12123216-1.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/06-12123216-1.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "back",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/24-12123155-1.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/24-12123155-1.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "interiorMiddle",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122637-169.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122637-169.jpg"
+    },
+    "hotspots": [
+      {
+        "x": 0.42485,
+        "y": 0.54331,
+        "tooltip": "Air Conditioning",
+        "id": "climateControl"
+      }
+    ]
+  },
+  {
+    "type": "photo",
+    "id": "interiorBack",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122638-118.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122638-118.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "boot",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122636-327.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122636-327.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "engine",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122637-878.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122637-878.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "gearstick",
+    "caption": "",
+    "hasHotspot": "true",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122638-272.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122638-272.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "dashDriver",
+    "caption": "Dashboard",
+    "hasHotspot": "true",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122636-997.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122636-997.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "dashCentre",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122636-675.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122636-675.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "radio",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122638-775.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122638-775.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "parking",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122639-069.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122639-069.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "appConnect",
+    "caption": "Car Net - App Connect",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122639-220.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122639-220.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "devicePairing",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122639-542.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122639-542.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "bluetooth",
+    "caption": "Bluetooth",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122639-707.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122639-707.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "climateControl",
+    "caption": "",
+    "hasHotspot": true,
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122638-636.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122638-636.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "lightstick",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122638-419.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122638-419.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "interiorPassenger",
+    "caption": "",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122639-365.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122639-365.jpg"
+    }
+  },
+  {
+    "type": "photo",
+    "id": "mirror",
+    "caption": "“Mirror”",
+    "hasHotspot": "true",
+    "minimap": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+    "thumbnail": "https://res.cloudinary.com/citygate/image/upload/w_300,h_200/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+    "src": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+    "srcSet": {
+      "560": "https://res.cloudinary.com/citygate/image/upload/w_560,h_374/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "800": "https://res.cloudinary.com/citygate/image/upload/w_800,h_533/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "1000": "https://res.cloudinary.com/citygate/image/upload/w_1000,h_667/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "1600": "https://res.cloudinary.com/citygate/image/upload/w_1600,h_1067/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "2000": "https://res.cloudinary.com/citygate/image/upload/w_2000,h_1333/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "3000": "https://res.cloudinary.com/citygate/image/upload/w_3000,h_2000/autoloadit/Img/pic/10/34794/S-12122636-103.jpg",
+      "4000": "https://res.cloudinary.com/citygate/image/upload/w_4000,h_2667/autoloadit/Img/pic/10/34794/S-12122636-103.jpg"
+    }
+  }
+]

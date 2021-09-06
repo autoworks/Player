@@ -1,0 +1,6 @@
+@import '../src/asset/scss/base.scss';
+
+body {
+  @include custom-colours;
+  @include css-reset;
+}
