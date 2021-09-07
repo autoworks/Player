@@ -36,13 +36,6 @@ const Interior = ({
   const [active, setActive] = useState(false)
   const [trackedHfov, updateHfov] = useState(hfov)
   const [initialised, setInitialised] = useState(false)
-  const [orientationSupported, setOrientationSupported] = useState(false)
-  const [orientationPermission, setOrientationPermission] = useState(false)
-  // const [orientationActive, toggleOrientationActive] = useState(false)
-
-  const showOrientationButton =
-    orientationSupported && orientationPermission !== 'denied'
-  // && !orientationActive
 
   const contextHotspotDebug = useContext(HotspotDebugContext)
   const derivedHotspotDebug = hotspotDebug || contextHotspotDebug
@@ -76,72 +69,11 @@ const Interior = ({
     updateHfov(nextHfov)
   }
 
-  const handleToggleOrientationActive = () => {
-    const thisViewer = viewer.current.getViewer()
-    // toggleOrientationActive(!thisViewer.isOrientationActive())
-    if (thisViewer.isOrientationActive()) {
-      thisViewer.stopOrientation()
-    } else {
-      thisViewer.startOrientation()
-    }
-  }
-
-  const handleOrientationPermission = () => {
-    if (
-      DeviceOrientationEvent &&
-      typeof DeviceOrientationEvent.requestPermission === 'function'
-    ) {
-      DeviceOrientationEvent.requestPermission()
-        .then((response) => {
-          if (response === 'granted') {
-            setOrientationPermission('granted')
-            handleToggleOrientationActive()
-          } else {
-            setOrientationPermission('denied')
-          }
-        })
-        .catch(() => {
-          setOrientationPermission('denied')
-        })
-    }
-  }
-
-  const handleOrientationTrigger = () => {
-    if (!orientationPermission) return handleOrientationPermission()
-    if (orientationPermission === 'denied') return
-    if (orientationPermission === 'granted')
-      return handleToggleOrientationActive()
-  }
-
-  // const handleRender = (a) => {
-  //   const thisViewer = viewer.current.getViewer()
-  //   const position = {
-  //     yaw: thisViewer.getYaw(),
-  //     pitch: thisViewer.getPitch(),
-  //     hfov: thisViewer.getHfov()
-  //   }
-  //   console.log(position)
-  // }
-
   useEffect(() => {
     if (!inactive && !initialised) {
       setInitialised(true)
     }
   }, [inactive, initialised])
-
-  useEffect(() => {
-    if (window?.location?.protocol !== 'https:') {
-      setOrientationSupported(false)
-      return
-    }
-
-    if (
-      DeviceOrientationEvent &&
-      typeof DeviceOrientationEvent.requestPermission === 'function'
-    ) {
-      setOrientationSupported(true)
-    }
-  }, [initialised])
 
   return (
     <div className={classNames(styles.Interior, active && styles.active)}>
@@ -179,14 +111,6 @@ const Interior = ({
                     onClick={handleZoomOut}
                     disabled={trackedHfov >= maxHfov ? true : null}
                   />
-                  {showOrientationButton && (
-                    <ButtonSingle
-                      inverse
-                      icon="three-sixty"
-                      a11yText="Device orientation mode"
-                      onClick={handleOrientationTrigger}
-                    />
-                  )}
                 </Inline>
               </div>
             )}
