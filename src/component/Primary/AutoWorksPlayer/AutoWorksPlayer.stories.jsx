@@ -22,3 +22,9 @@ SingleItem.args = {
   items: [items[3]],
   ...config
 }
+
+export const SingleType = Template.bind({})
+SingleType.args = {
+  items: [items[3], items[4], items[5]],
+  ...config
+}
