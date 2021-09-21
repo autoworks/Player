@@ -40,21 +40,27 @@
   user-select: auto;
   position: relative;
 
-  @include mq($breakpoint-desktop) {
-    padding-left: spacing(1);
-    .infoOnLeft & {
-      padding-left: 0;
-      padding-right: spacing(1);
-    }
-  }
+  // @include mq($breakpoint-desktop) {
+  //   padding-left: spacing(1);
+  //   .infoOnLeft & {
+  //     padding-left: 0;
+  //     padding-right: spacing(1);
+  //   }
+  // }
 }
 
 .PlayerInfoInner {
   @include mq($breakpoint-desktop) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    height: 100%;
+  }
+
+  &.heightMatch {
+    @include mq($breakpoint-desktop) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
   }
 }

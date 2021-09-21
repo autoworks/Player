@@ -41,6 +41,7 @@ const Player = ({
   infoTags,
   infoText,
   infoTextSecondary,
+  infoHeightMatch,
   items,
   modalZIndex,
   onNavigation,
@@ -199,7 +200,12 @@ const Player = ({
           </div>
           {showInfo && (
             <div className={styles.PlayerInfo}>
-              <div className={styles.PlayerInfoInner}>
+              <div
+                className={classNames(
+                  styles.PlayerInfoInner,
+                  infoHeightMatch && styles.heightMatch
+                )}
+              >
                 <InfoPanel
                   heading={infoHeading}
                   text={infoText}
@@ -281,6 +287,7 @@ Player.propTypes = {
   infoTags: arrayOf(string),
   infoText: string,
   infoTextSecondary: string,
+  infoHeightMatch: bool,
   onNavigation: func,
   onShowcaseEnter: func,
   onShowcaseExit: func,

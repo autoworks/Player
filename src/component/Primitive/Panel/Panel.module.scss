@@ -25,7 +25,7 @@
 
   &::after {
     bottom: 0;
-    height: spacing(5);
+    height: spacing(4);
     background-image: linear-gradient(
       to top,
       rgba($color-white, 0.9),
@@ -35,7 +35,7 @@
 }
 
 .PanelContent {
-  padding: spacing(2) spacing(2) spacing(5);
+  padding: spacing(2);
   max-width: spacing(50);
   margin-left: auto;
   margin-right: auto;

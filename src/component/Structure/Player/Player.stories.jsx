@@ -21,21 +21,33 @@ Default.args = {
   items
 }
 
-// export const Info = Template.bind({})
-// Info.args = {
-//   ...Default.args,
-//   heading: config.heading,
-//   description: config.description,
-//   tags: config.tags,
-//   headingSecondary: config.headingSecondary,
-//   descriptionSecondary: config.descriptionSecondary
-// }
+export const Info = Template.bind({})
+Info.args = {
+  ...Default.args,
+  infoHeading: config.infoHeading,
+  infoText: config.infoText,
+  infoTags: config.infoTags,
+  infoHeadingSecondary: config.infoHeadingSecondary,
+  infoTextSecondary: config.infoTextSecondary
+}
 
-// export const InfoHidden = Template.bind({})
-// InfoHidden.args = {
-//   ...Default.args,
-//   infoHidden: true
-// }
+export const InfoHeightMatching = Template.bind({})
+InfoHeightMatching.args = {
+  ...Info.args,
+  infoHeightMatch: true
+}
+
+export const InfoOnLeft = Template.bind({})
+InfoOnLeft.args = {
+  ...Info.args,
+  infoOnLeft: true
+}
+
+export const InfoHidden = Template.bind({})
+InfoHidden.args = {
+  ...Default.args,
+  infoHidden: true
+}
 
 export const Color = Template.bind({})
 Color.args = {
