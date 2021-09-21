@@ -17,17 +17,23 @@ const ViewerHeader = ({ activeType, availableTypes, onChange, onZoom }) => (
         </ButtonGroup.Item>
       </ButtonGroup>
 
-      <div className={styles.ViewerHeaderTypeNav}>
-        <TypeNav
-          availableTypes={availableTypes}
-          activeType={activeType}
-          inverse
-          onChange={onChange}
-        />
-      </div>
+      {availableTypes.length > 1 && (
+        <div className={styles.ViewerHeaderTypeNav}>
+          <TypeNav
+            availableTypes={availableTypes}
+            activeType={activeType}
+            inverse
+            onChange={onChange}
+          />
+        </div>
+      )}
     </Inline>
   </div>
 )
+
+ViewerHeader.defaultProps = {
+  availableTypes: []
+}
 
 ViewerHeader.propTypes = {
   activeType: string,

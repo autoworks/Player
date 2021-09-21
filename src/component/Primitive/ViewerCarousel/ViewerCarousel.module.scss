@@ -11,6 +11,9 @@
 
 .ViewerCarouselSecondary {
   position: relative;
+  @include mq($breakpoint-desktop) {
+    margin-bottom: spacing(-1);
+  }
 }
 
 .ViewerCarouselButton {
