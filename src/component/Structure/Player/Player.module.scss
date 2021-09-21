@@ -24,7 +24,6 @@
 
   min-width: 0; // Flexbox fix
   flex-basis: calc(66% - #{spacing(1)}); // Required for IE11
-  overflow: hidden; // Required for IE11
 
   .infoHidden & {
     flex-basis: 100%;
