@@ -25,6 +25,7 @@ declare module 'autoworks-player' {
         infoTags?: string[];
         infoText?: string;
         infoTextSecondary?: string;
+        infoHeightMatch?: boolean;
         onNavigation?: (...args: any[])=>any;
         onShowcaseEnter?: (...args: any[])=>any;
         onShowcaseExit?: (...args: any[])=>any;
