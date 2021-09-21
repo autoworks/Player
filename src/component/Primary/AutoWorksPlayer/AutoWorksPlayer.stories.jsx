@@ -1,6 +1,9 @@
 import React from 'react'
 import AutoWorksPlayer from '.'
 
+import config from '@/fixture/config'
+import items from '@/fixture/items'
+
 export default {
   title: 'Unsorted/AutoWorksPlayer',
   component: AutoWorksPlayer
@@ -9,5 +12,19 @@ export default {
 const Template = (args) => <AutoWorksPlayer {...args} />
 
 export const Default = Template.bind({})
+Default.args = {
+  items,
+  ...config
+}
 
-Default.args = {}
+export const SingleItem = Template.bind({})
+SingleItem.args = {
+  items: [items[3]],
+  ...config
+}
+
+export const SingleType = Template.bind({})
+SingleType.args = {
+  items: [items[3], items[4], items[5]],
+  ...config
+}

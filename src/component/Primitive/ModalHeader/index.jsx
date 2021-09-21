@@ -23,14 +23,16 @@ const ModalHeader = ({
         <div className={styles.ModalHeaderDescription}>{description}</div>
       )}
     </div>
-    <div className={styles.ModalHeaderActions}>
-      <TypeNav
-        availableTypes={availableTypes}
-        activeType={activeType}
-        inverse
-        onChange={onChange}
-      />
-    </div>
+    {availableTypes.length > 1 && (
+      <div className={styles.ModalHeaderActions}>
+        <TypeNav
+          availableTypes={availableTypes}
+          activeType={activeType}
+          inverse
+          onChange={onChange}
+        />
+      </div>
+    )}
     <div>
       <IconButton
         type="button"
@@ -42,6 +44,10 @@ const ModalHeader = ({
     </div>
   </div>
 )
+
+ModalHeader.defaultProps = {
+  availableTypes: []
+}
 
 ModalHeader.propTypes = {
   activeType: string,

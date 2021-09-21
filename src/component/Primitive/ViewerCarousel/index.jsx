@@ -99,52 +99,53 @@ const ViewerCarousel = ({
           </div>
         )}
       </div>
+      {thumbnails.length > 1 && (
+        <div className={styles.ViewerCarouselSecondary}>
+          <Swiper
+            onSwiper={setThumbsSwiper}
+            slidesPerView="auto"
+            centeredSlides
+            centeredSlidesBounds
+            centerInsufficientSlides
+            spaceBetween={8}
+            className="swiper-container__filmstrip"
+            onClick={handleThumbClick}
+          >
+            {thumbnails.map((thumbnail, i) => (
+              <SwiperSlide key={`SwiperSlide:${i}`} style={{ width: 'auto' }}>
+                {cloneElement(thumbnail, { active: activeSlide === i })}
+              </SwiperSlide>
+            ))}
+          </Swiper>
 
-      <div className={styles.ViewerCarouselSecondary}>
-        <Swiper
-          onSwiper={setThumbsSwiper}
-          slidesPerView="auto"
-          centeredSlides
-          centeredSlidesBounds
-          centerInsufficientSlides
-          spaceBetween={8}
-          className="swiper-container__filmstrip"
-          onClick={handleThumbClick}
-        >
-          {thumbnails.map((thumbnail, i) => (
-            <SwiperSlide key={`SwiperSlide:${i}`} style={{ width: 'auto' }}>
-              {cloneElement(thumbnail, { active: activeSlide === i })}
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
-        <div
-          className={classNames(
-            styles.ViewerCarouselButton,
-            styles.ViewerCarouselButtonPrevious
-          )}
-        >
-          <PaginationButton
-            direction="previous"
-            onClick={handlePrev}
-            disabled={activeSlide === 0}
-            inverse={inverse}
-          />
+          <div
+            className={classNames(
+              styles.ViewerCarouselButton,
+              styles.ViewerCarouselButtonPrevious
+            )}
+          >
+            <PaginationButton
+              direction="previous"
+              onClick={handlePrev}
+              disabled={activeSlide === 0}
+              inverse={inverse}
+            />
+          </div>
+          <div
+            className={classNames(
+              styles.ViewerCarouselButton,
+              styles.ViewerCarouselButtonNext
+            )}
+          >
+            <PaginationButton
+              direction="next"
+              onClick={handleNext}
+              disabled={activeSlide === slides.length - 1}
+              inverse={inverse}
+            />
+          </div>
         </div>
-        <div
-          className={classNames(
-            styles.ViewerCarouselButton,
-            styles.ViewerCarouselButtonNext
-          )}
-        >
-          <PaginationButton
-            direction="next"
-            onClick={handleNext}
-            disabled={activeSlide === slides.length - 1}
-            inverse={inverse}
-          />
-        </div>
-      </div>
+      )}
     </div>
   )
 }
