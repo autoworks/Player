@@ -2,6 +2,7 @@
   user-select: none;
   position: relative;
   width: 140px;
+  cursor: pointer;
 
   @include mq($breakpoint-tablet) {
     width: 160px;

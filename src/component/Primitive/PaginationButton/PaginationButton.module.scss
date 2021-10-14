@@ -8,6 +8,7 @@ button.PaginationButton {
   background: $color-grey6;
   color: $color-white;
   padding: spacing(1);
+  cursor: pointer;
 
   &[disabled] {
     opacity: 0.5;
