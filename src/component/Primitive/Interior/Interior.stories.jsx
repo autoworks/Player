@@ -21,10 +21,10 @@ const Template = (args) => <Interior {...args} />
 export const Default = Template.bind({})
 Default.args = {
   controls: true,
-  image:
-    'https://res.cloudinary.com/citygate/image/upload/f_auto,q_auto/autoloadit/Img/pic/10/34794/360Int/01.jpg',
+  src:
+    'https://media.auto.works/6000/e5fc7be505271576da3b2a3d438ff38c:ee97105b5080a824ee220940dc6aa4bd',
   poster:
-    'https://res.cloudinary.com/citygate/image/upload/w_800,h_450,c_fill/autoloadit/Img/pic/10/34794/S-12122637-637.jpg',
+    'https://media.auto.works/400/250/cover/e5fc7be505271576da3b2a3d438ff38c:ef91fd4a92f6ae416ede02c624f75968',
   hotspots: [
     {
       tooltip: 'Gearstick',

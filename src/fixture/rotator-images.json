@@ -9,8 +9,8 @@
     },
     "hotspots": [
       {
-        "x": 0.45311,
-        "y": 0.4,
+        "x": 0.60106,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -26,8 +26,8 @@
     },
     "hotspots": [
       {
-        "x": 0.53446,
-        "y": 0.4,
+        "x": 0.64628,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -43,8 +43,8 @@
     },
     "hotspots": [
       {
-        "x": 0.57966,
-        "y": 0.4,
+        "x": 0.68706,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -60,8 +60,8 @@
     },
     "hotspots": [
       {
-        "x": 0.61921,
-        "y": 0.4,
+        "x": 0.71809,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -77,8 +77,8 @@
     },
     "hotspots": [
       {
-        "x": 0.65763,
-        "y": 0.4,
+        "x": 0.74202,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -94,8 +94,8 @@
     },
     "hotspots": [
       {
-        "x": 0.68814,
-        "y": 0.4,
+        "x": 0.75887,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -109,14 +109,7 @@
       "1000": "https://media.auto.works/1000/625/cover/f199918b656ed9304dafd7dd67a7137b:d8e0a68c65550372abfd4f4fc930222c",
       "1600": "https://media.auto.works/1600/1000/cover/f199918b656ed9304dafd7dd67a7137b:17e51080bd35701cc2ad8c292a590639"
     },
-    "hotspots": [
-      {
-        "x": 0.71186,
-        "y": 0.4,
-        "tooltip": "Mirror",
-        "id": "mirror"
-      }
-    ]
+    "hotspots": []
   },
   {
     "src": "https://media.auto.works/1000/625/cover/ac714090a4e32f5c493fce51b671fc05:675ccfa1f944a4cb8602917bfad49e0f",
@@ -348,8 +341,8 @@
     },
     "hotspots": [
       {
-        "x": 0.25989,
-        "y": 0.4,
+        "x": 0.27926,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -365,8 +358,8 @@
     },
     "hotspots": [
       {
-        "x": 0.27458,
-        "y": 0.4,
+        "x": 0.32004,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -382,8 +375,8 @@
     },
     "hotspots": [
       {
-        "x": 0.28586,
-        "y": 0.4,
+        "x": 0.35461,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -399,8 +392,8 @@
     },
     "hotspots": [
       {
-        "x": 0.2989,
-        "y": 0.4,
+        "x": 0.40603,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -416,8 +409,8 @@
     },
     "hotspots": [
       {
-        "x": 0.34002,
-        "y": 0.4,
+        "x": 0.45301,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -433,8 +426,8 @@
     },
     "hotspots": [
       {
-        "x": 0.36606,
-        "y": 0.4,
+        "x": 0.49734,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -450,8 +443,8 @@
     },
     "hotspots": [
       {
-        "x": 0.39752,
-        "y": 0.4,
+        "x": 0.5328,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -467,8 +460,8 @@
     },
     "hotspots": [
       {
-        "x": 0.45377,
-        "y": 0.4,
+        "x": 0.55496,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -484,8 +477,8 @@
     },
     "hotspots": [
       {
-        "x": 0.47386,
-        "y": 0.4,
+        "x": 0.59043,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -501,8 +494,8 @@
     },
     "hotspots": [
       {
-        "x": 0.52841,
-        "y": 0.4,
+        "x": 0.62323,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -518,8 +511,8 @@
     },
     "hotspots": [
       {
-        "x": 0.56136,
-        "y": 0.4,
+        "x": 0.65071,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -535,8 +528,8 @@
     },
     "hotspots": [
       {
-        "x": 0.61136,
-        "y": 0.4,
+        "x": 0.66844,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -552,8 +545,8 @@
     },
     "hotspots": [
       {
-        "x": 0.63636,
-        "y": 0.4,
+        "x": 0.68215,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -569,8 +562,8 @@
     },
     "hotspots": [
       {
-        "x": 0.65114,
-        "y": 0.4,
+        "x": 0.69521,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -586,8 +579,8 @@
     },
     "hotspots": [
       {
-        "x": 0.67727,
-        "y": 0.4,
+        "x": 0.693,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -603,8 +596,8 @@
     },
     "hotspots": [
       {
-        "x": 0.68409,
-        "y": 0.4,
+        "x": 0.69041,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -620,8 +613,8 @@
     },
     "hotspots": [
       {
-        "x": 0.69091,
-        "y": 0.4,
+        "x": 0.68,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -637,8 +630,8 @@
     },
     "hotspots": [
       {
-        "x": 0.69091,
-        "y": 0.4,
+        "x": 0.6711,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -654,8 +647,8 @@
     },
     "hotspots": [
       {
-        "x": 0.69205,
-        "y": 0.4,
+        "x": 0.655,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -671,8 +664,8 @@
     },
     "hotspots": [
       {
-        "x": 0.67727,
-        "y": 0.4,
+        "x": 0.64007,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -686,14 +679,7 @@
       "1000": "https://media.auto.works/1000/625/cover/dd4d4cf48f33016f5be852bc8a481130:086ec1fb3e154bba563aa572a59bc929",
       "1600": "https://media.auto.works/1600/1000/cover/dd4d4cf48f33016f5be852bc8a481130:0295666926cb27cb75970454e182f6d5"
     },
-    "hotspots": [
-      {
-        "x": 0.67045,
-        "y": 0.4,
-        "tooltip": "Mirror",
-        "id": "mirror"
-      }
-    ]
+    "hotspots": []
   },
   {
     "src": "https://media.auto.works/1000/625/cover/ce0224276e7786722d18d8576f2d7dd2:28b146673fcea481ff07644aa21bce20",
@@ -865,8 +851,8 @@
     },
     "hotspots": [
       {
-        "x": 0.30682,
-        "y": 0.4,
+        "x": 0.36282,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -882,8 +868,8 @@
     },
     "hotspots": [
       {
-        "x": 0.32045,
-        "y": 0.4,
+        "x": 0.383,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -899,8 +885,8 @@
     },
     "hotspots": [
       {
-        "x": 0.33409,
-        "y": 0.4,
+        "x": 0.4141,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -916,8 +902,8 @@
     },
     "hotspots": [
       {
-        "x": 0.36818,
-        "y": 0.4,
+        "x": 0.435,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -933,8 +919,8 @@
     },
     "hotspots": [
       {
-        "x": 0.39432,
-        "y": 0.4,
+        "x": 0.47821,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }
@@ -950,8 +936,8 @@
     },
     "hotspots": [
       {
-        "x": 0.43842,
-        "y": 0.4,
+        "x": 0.49744,
+        "y": 0.35,
         "tooltip": "Mirror",
         "id": "mirror"
       }

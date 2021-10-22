@@ -3,7 +3,6 @@ import Player from '.'
 
 import config from '@/fixture/config'
 import items from '@/fixture/items'
-import items3x2 from '@/fixture/3x2/items'
 
 export default {
   title: 'Unsorted/Player',
@@ -79,14 +78,6 @@ CustomClasses.decorators = [
 CustomClasses.args = {
   ...Default.args,
   containerClass: 'container'
-}
-
-export const CustomRatios = Template.bind({})
-CustomRatios.args = {
-  ...Default.args,
-  items: items3x2,
-  ratio: 2 / 3,
-  thumbnailRatio: 2 / 3
 }
 
 export const HideBranding = Template.bind({})

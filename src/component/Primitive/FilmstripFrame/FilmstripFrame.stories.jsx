@@ -11,7 +11,7 @@ const Template = (args) => <FilmstripFrame {...args} />
 export const Default = Template.bind({})
 Default.args = {
   src:
-    'https://res.cloudinary.com/citygate/image/upload/w_300,h_150,c_fill/autoloadit/Img/pic/10/34794/S-12122637-637.jpg'
+    'https://media.auto.works/300/150/cover/a8db1dbafbf56025fed64ab5641ab5e9:f3eea252485b09a27764adbbbbc7c168'
 }
 
 export const Caption = Template.bind({})
