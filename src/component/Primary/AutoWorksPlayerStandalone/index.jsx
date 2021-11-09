@@ -1,4 +1,5 @@
 import React from 'react'
+import { render as domRender } from 'react-dom'
 
 import AutoWorksPlayer from '../AutoWorksPlayerLibrary'
 
@@ -6,7 +7,7 @@ export default (element, initialConfig = {}) => {
   let config = { ...initialConfig }
 
   const render = () => {
-    render(<AutoWorksPlayer {...config} />, element)
+    domRender(<AutoWorksPlayer {...config} />, element)
   }
 
   const updateConfig = (newConfig) => {
