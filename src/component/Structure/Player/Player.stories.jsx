@@ -30,6 +30,28 @@ Info.args = {
   infoTextSecondary: config.infoTextSecondary
 }
 
+export const InfoChildrenReact = Template.bind({})
+InfoChildrenReact.args = {
+  ...Default.args,
+  infoHeading: config.infoHeading,
+  infoText: config.infoText,
+  infoTags: config.infoTags,
+  infoHeadingSecondary: config.infoHeadingSecondary,
+  infoTextSecondary: config.infoTextSecondary,
+  infoChildren: <p>Lorem ipsum</p>
+}
+
+export const InfoChildrenHTML = Template.bind({})
+InfoChildrenHTML.args = {
+  ...Default.args,
+  infoHeading: config.infoHeading,
+  infoText: config.infoText,
+  infoTags: config.infoTags,
+  infoHeadingSecondary: config.infoHeadingSecondary,
+  infoTextSecondary: config.infoTextSecondary,
+  infoChildren: '<p>Lorem ipsum</p>'
+}
+
 export const InfoHeightMatching = Template.bind({})
 InfoHeightMatching.args = {
   ...Info.args,
