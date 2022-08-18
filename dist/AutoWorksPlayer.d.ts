@@ -10,6 +10,7 @@ declare module 'autoworks-player' {
         type?: "photo";
         id?: string;
         thumbnail?: string;
+        hasHotspot?: boolean;
         alt?: string;
         caption?: string;
         controls?: boolean;
@@ -31,6 +32,7 @@ declare module 'autoworks-player' {
         id?: string;
         thumbnail?: string;
         caption?: string;
+        hasHotspot?: boolean;
         alt?: string;
         hotspotDebug?: boolean;
         images?: {
@@ -49,6 +51,7 @@ declare module 'autoworks-player' {
         id?: string;
         thumbnail?: string;
         caption?: string;
+        hasHotspot?: boolean;
         alt?: string;
         controls?: boolean;
         hotspotDebug?: boolean;
@@ -69,6 +72,7 @@ declare module 'autoworks-player' {
         id?: string;
         thumbnail?: string;
         caption?: string;
+        hasHotspot?: boolean;
         alt?: string;
         aspectRatio?: number;
         autoplay?: boolean;
