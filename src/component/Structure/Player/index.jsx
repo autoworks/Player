@@ -313,6 +313,7 @@ Player.propTypes = {
         id: string,
         thumbnail: string,
         alt: string,
+        caption: string,
         controls: bool,
         defaultScale: number,
         hotspots: arrayOf(shape(shapeHotspotStandard)),
@@ -331,6 +332,8 @@ Player.propTypes = {
       shape({
         type: oneOf(['exterior']),
         id: string,
+        thumbnail: string,
+        caption: string,
         alt: string,
         hotspotDebug: bool,
         images: arrayOf(
@@ -350,6 +353,8 @@ Player.propTypes = {
       shape({
         type: oneOf(['interior']),
         id: string,
+        thumbnail: string,
+        caption: string,
         alt: string,
         controls: bool,
         hotspotDebug: bool,
@@ -369,6 +374,8 @@ Player.propTypes = {
       shape({
         type: oneOf(['video']),
         id: string,
+        thumbnail: string,
+        caption: string,
         alt: string,
         aspectRatio: number,
         autoplay: bool,

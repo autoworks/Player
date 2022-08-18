@@ -11,6 +11,7 @@ declare module 'autoworks-player' {
         id?: string;
         thumbnail?: string;
         alt?: string;
+        caption?: string;
         controls?: boolean;
         defaultScale?: number;
         hotspots?: any[];
@@ -28,6 +29,8 @@ declare module 'autoworks-player' {
     } | {
         type?: "exterior";
         id?: string;
+        thumbnail?: string;
+        caption?: string;
         alt?: string;
         hotspotDebug?: boolean;
         images?: {
@@ -44,6 +47,8 @@ declare module 'autoworks-player' {
     } | {
         type?: "interior";
         id?: string;
+        thumbnail?: string;
+        caption?: string;
         alt?: string;
         controls?: boolean;
         hotspotDebug?: boolean;
@@ -62,6 +67,8 @@ declare module 'autoworks-player' {
     } | {
         type?: "video";
         id?: string;
+        thumbnail?: string;
+        caption?: string;
         alt?: string;
         aspectRatio?: number;
         autoplay?: boolean;
