@@ -7,8 +7,10 @@ import {
   number,
   object,
   oneOf,
+  oneOfType,
   shape,
-  string
+  string,
+  objectOf
 } from 'prop-types'
 import classNames from 'classnames'
 import minifyCssString from '@/lib/css-string-minifier'
@@ -25,6 +27,8 @@ import Spinner from '@/component/Primitive/Spinner'
 import Splash from '@/component/Primitive/Splash'
 import Viewer from '@/component/Primitive/Viewer'
 import ViewerPlaceholder from '@/component/Primitive/ViewerPlaceholder'
+import shapeHotspotStandard from '@/shape/hotspot-standard'
+import shapeHotspotInterior from '@/shape/hotspot-interior'
 
 const Player = ({
   colors,
@@ -300,7 +304,74 @@ Player.propTypes = {
   thumbnailRatio: number,
   watermark: bool,
   items: arrayOf(
-    shape({ type: oneOf(['exterior', 'interior', 'photo', 'video']) })
+    oneOfType([
+      shape({
+        type: oneOf(['photo']),
+        alt: string,
+        controls: bool,
+        defaultScale: number,
+        hotspots: arrayOf(shape(shapeHotspotStandard)),
+        loading: bool,
+        max: number,
+        min: number,
+        minimap: string.isRequired,
+        onHotspotClick: func,
+        ratio: number,
+        src: string.isRequired,
+        srcSet: objectOf(string),
+        step: number,
+        disableZoom: bool,
+        priorityLoading: bool
+      }),
+      shape({
+        type: oneOf(['exterior']),
+        alt: string,
+        hotspotDebug: bool,
+        images: arrayOf(
+          shape({
+            src: string.isRequired,
+            srcSet: objectOf(string),
+            hotspots: arrayOf(shape(shapeHotspotStandard))
+          })
+        ),
+        inactive: bool,
+        initialIndex: number,
+        onHotspotClick: func,
+        ratio: number,
+        reverseDirection: bool,
+        scroll: bool
+      }),
+      shape({
+        type: oneOf(['interior']),
+        alt: string,
+        controls: bool,
+        hotspotDebug: bool,
+        hotspots: arrayOf(shape(shapeHotspotInterior)),
+        inactive: bool,
+        onHotspotClick: func,
+        poster: string.isRequired,
+        ratio: number,
+        src: string.isRequired,
+        mouseZoom: bool,
+        minHfov: number,
+        maxHfov: number,
+        hfov: number,
+        pitch: number,
+        yaw: number
+      }),
+      shape({
+        type: oneOf(['video']),
+        alt: string,
+        aspectRatio: number,
+        autoplay: bool,
+        disabled: bool,
+        inverse: bool,
+        onProgress: func,
+        poster: string.isRequired,
+        ratio: number,
+        src: string.isRequired
+      })
+    ])
   ).isRequired,
   modalZIndex: number
 }

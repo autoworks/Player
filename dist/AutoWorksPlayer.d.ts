@@ -6,9 +6,67 @@ declare module 'autoworks-player' {
         accentText?: string;
     }
 
-    export interface PlayerItems {
-        type?: "exterior" | "interior" | "photo" | "video";
-    }
+    export type PlayerItems = {
+        type?: "photo";
+        alt?: string;
+        controls?: boolean;
+        defaultScale?: number;
+        hotspots?: any[];
+        loading?: boolean;
+        max?: number;
+        min?: number;
+        minimap: string;
+        onHotspotClick?: (...args: any[])=>any;
+        ratio?: number;
+        src: string;
+        srcSet?: any;
+        step?: number;
+        disableZoom?: boolean;
+        priorityLoading?: boolean;
+    } | {
+        type?: "exterior";
+        alt?: string;
+        hotspotDebug?: boolean;
+        images?: {
+            src: string;
+            srcSet?: any;
+            hotspots?: any[];
+        }[];
+        inactive?: boolean;
+        initialIndex?: number;
+        onHotspotClick?: (...args: any[])=>any;
+        ratio?: number;
+        reverseDirection?: boolean;
+        scroll?: boolean;
+    } | {
+        type?: "interior";
+        alt?: string;
+        controls?: boolean;
+        hotspotDebug?: boolean;
+        hotspots?: any[];
+        inactive?: boolean;
+        onHotspotClick?: (...args: any[])=>any;
+        poster: string;
+        ratio?: number;
+        src: string;
+        mouseZoom?: boolean;
+        minHfov?: number;
+        maxHfov?: number;
+        hfov?: number;
+        pitch?: number;
+        yaw?: number;
+    } | {
+        type?: "video";
+        alt?: string;
+        aspectRatio?: number;
+        autoplay?: boolean;
+        disabled?: boolean;
+        inverse?: boolean;
+        onProgress?: (...args: any[])=>any;
+        poster: string;
+        ratio?: number;
+        src: string;
+    };
 
     export interface PlayerProps {
         colors?: PlayerColors;
