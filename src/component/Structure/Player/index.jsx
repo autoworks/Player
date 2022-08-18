@@ -310,6 +310,8 @@ Player.propTypes = {
     oneOfType([
       shape({
         type: oneOf(['photo']),
+        id: string,
+        thumbnail: string,
         alt: string,
         controls: bool,
         defaultScale: number,
@@ -328,6 +330,7 @@ Player.propTypes = {
       }),
       shape({
         type: oneOf(['exterior']),
+        id: string,
         alt: string,
         hotspotDebug: bool,
         images: arrayOf(
@@ -346,6 +349,7 @@ Player.propTypes = {
       }),
       shape({
         type: oneOf(['interior']),
+        id: string,
         alt: string,
         controls: bool,
         hotspotDebug: bool,
@@ -364,6 +368,7 @@ Player.propTypes = {
       }),
       shape({
         type: oneOf(['video']),
+        id: string,
         alt: string,
         aspectRatio: number,
         autoplay: bool,

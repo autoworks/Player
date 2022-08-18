@@ -8,6 +8,8 @@ declare module 'autoworks-player' {
 
     export type PlayerItems = {
         type?: "photo";
+        id?: string;
+        thumbnail?: string;
         alt?: string;
         controls?: boolean;
         defaultScale?: number;
@@ -25,6 +27,7 @@ declare module 'autoworks-player' {
         priorityLoading?: boolean;
     } | {
         type?: "exterior";
+        id?: string;
         alt?: string;
         hotspotDebug?: boolean;
         images?: {
@@ -40,6 +43,7 @@ declare module 'autoworks-player' {
         scroll?: boolean;
     } | {
         type?: "interior";
+        id?: string;
         alt?: string;
         controls?: boolean;
         hotspotDebug?: boolean;
@@ -57,6 +61,7 @@ declare module 'autoworks-player' {
         yaw?: number;
     } | {
         type?: "video";
+        id?: string;
         alt?: string;
         aspectRatio?: number;
         autoplay?: boolean;
