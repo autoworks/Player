@@ -217,7 +217,10 @@ const Player = ({
                   headingSecondary={infoHeadingSecondary}
                   textSecondary={infoTextSecondary}
                 >
-                  {infoChildren}
+                  {(typeof infoChildren === 'string' && (
+                    <div dangerouslySetInnerHTML={{ __html: infoChildren }} />
+                  )) ||
+                    infoChildren}
                 </InfoPanel>
               </div>
             </div>
