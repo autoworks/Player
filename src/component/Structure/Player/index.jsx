@@ -33,6 +33,7 @@ import shapeHotspotInterior from '@/shape/hotspot-interior'
 const Player = ({
   colors,
   containerClass,
+  forceShowcase,
   hideBranding,
   history,
   hotspotDebug,
@@ -59,7 +60,7 @@ const Player = ({
   thumbnailRatio,
   watermark
 }) => {
-  const [showcaseActive, toggleShowcaseActive] = useState(false)
+  const [showcaseActive, toggleShowcaseActive] = useState(!!forceShowcase)
   const [activeItem, updateActiveItem] = useState({})
   const [availableTypes, setAvailableTypes] = useState([])
   const [splashComplete, setSplashComplete] = useState(false)
@@ -75,11 +76,17 @@ const Player = ({
       infoTextSecondary
 
   const handleModalClose = () => {
+    if (forceShowcase) {
+      return
+    }
     toggleShowcaseActive(false)
     onShowcaseExit && onShowcaseExit()
   }
 
   const handleModalOpen = () => {
+    if (forceShowcase) {
+      return
+    }
     toggleShowcaseActive(true)
     onShowcaseEnter && onShowcaseEnter()
   }
@@ -244,7 +251,7 @@ const Player = ({
             onChange={handleNavChange}
             heading={showcaseHeading}
             description={showcaseDescription}
-            onClose={handleModalClose}
+            onClose={!forceShowcase && handleModalClose}
             inverse
           />
           {mounted && showcaseActive && (
@@ -260,6 +267,19 @@ const Player = ({
                 )
               }
             />
+          )}
+
+          {forceShowcase && (!mounted || items.length === 0) && (
+            <ViewerPlaceholder inverted>
+              <div style={{ textAlign: 'center' }}>
+                {!mounted && <Spinner />}
+                <noscript>
+                  <div>
+                    This functionality requires JavaScript to be enabled
+                  </div>
+                </noscript>
+              </div>
+            </ViewerPlaceholder>
           )}
         </Modal>
       </div>
@@ -392,7 +412,8 @@ Player.propTypes = {
       })
     ])
   ).isRequired,
-  modalZIndex: number
+  modalZIndex: number,
+  forceShowcase: bool
 }
 
 export default Player

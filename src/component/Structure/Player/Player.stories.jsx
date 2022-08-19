@@ -131,3 +131,16 @@ History.args = {
   ...Default.args,
   history: { replaceState: false, key: 'item' }
 }
+
+export const ForceShowcase = Template.bind({})
+ForceShowcase.args = {
+  ...Default.args,
+  forceShowcase: true
+}
+
+export const ForceShowcaseNoItems = Template.bind({})
+ForceShowcaseNoItems.args = {
+  ...Default.args,
+  forceShowcase: true,
+  items: []
+}

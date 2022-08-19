@@ -1,15 +1,15 @@
 import React from 'react'
-import { node } from 'prop-types'
+import { node, bool } from 'prop-types'
 
 import ImageFrame from '../ImageFrame'
 import ResponsiveMedia from '../ResponsiveMedia'
 
 import styles from './ViewerPlaceholder.module.scss'
 
-const ViewerPlaceholder = ({ children }) => (
+const ViewerPlaceholder = ({ children, inverted }) => (
   <div className={styles.ViewerPlaceholder}>
     <ResponsiveMedia ratio={10 / 16}>
-      <ImageFrame>{children}</ImageFrame>
+      <ImageFrame inverted={inverted}>{children}</ImageFrame>
     </ResponsiveMedia>
     <div className={styles.ViewerPlaceholderFilmstrip}>
       {[...Array(10).keys()].map((i) => (
@@ -21,7 +21,7 @@ const ViewerPlaceholder = ({ children }) => (
             ratio={1 / 2}
             key={`ViewerPlaceholderFilmstrip:${i}`}
           >
-            <ImageFrame />
+            <ImageFrame inverted={inverted} />
           </ResponsiveMedia>
         </div>
       ))}
@@ -30,7 +30,8 @@ const ViewerPlaceholder = ({ children }) => (
 )
 
 ViewerPlaceholder.propTypes = {
-  children: node
+  children: node,
+  inverted: bool
 }
 
 export default ViewerPlaceholder

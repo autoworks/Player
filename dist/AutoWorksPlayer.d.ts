@@ -113,6 +113,7 @@ declare module 'autoworks-player' {
         watermark?: boolean;
         items: PlayerItems[];
         modalZIndex?: number;
+        forceShowcase?: boolean;
     }
 
     const Player: React.FC<PlayerProps>;
