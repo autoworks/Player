@@ -41,11 +41,8 @@
   //   max-width: spacing(160);
   // }
 
-  @media (min-width: $breakpoint-desktopSmallMedium) and (min-aspect-ratio: 4/3) {
+  @media (min-width: $breakpoint-desktopSmallMedium) {
     max-width: 120vh;
-  }
-  @media (min-width: $breakpoint-desktopSmallMedium) and (min-aspect-ratio: 16/9) {
-    max-width: 110vh;
   }
 }
 
@@ -56,6 +53,9 @@
   bottom: 0;
   left: 0;
   background: rgba($color-base, 0.9);
+}
+
+.ModalBgAnimated {
   @include modal-fade-in(300);
 }
 

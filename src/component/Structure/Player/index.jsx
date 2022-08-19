@@ -248,6 +248,7 @@ const Player = ({
           }
           colors={mergedColors}
           zIndex={modalZIndex}
+          animated={!forceShowcase}
         >
           <ModalHeader
             availableTypes={availableTypes}
@@ -255,7 +256,7 @@ const Player = ({
             onChange={handleNavChange}
             heading={showcaseHeading}
             description={showcaseDescription}
-            onClose={!forceShowcase && handleModalClose}
+            onClose={!forceShowcase ? handleModalClose : undefined}
             inverse
           />
           {mounted && showcaseActive && (
@@ -274,7 +275,7 @@ const Player = ({
           )}
 
           {forceShowcase && (!mounted || items.length === 0) && (
-            <ViewerPlaceholder inverted>
+            <ViewerPlaceholder inverse>
               <div style={{ textAlign: 'center' }}>
                 {!mounted && <Spinner />}
                 <noscript>

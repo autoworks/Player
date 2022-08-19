@@ -8,15 +8,15 @@ import styles from './ImageFrame.module.scss'
  * within the bounds of the area, without stretching smaller images.
  */
 
-const ImageFrame = ({ children, inverted }) => (
-  <div className={classNames(styles.ImageFrame, inverted && styles.Inverted)}>
+const ImageFrame = ({ children, inverse }) => (
+  <div className={classNames(styles.ImageFrame, inverse && styles.Inverse)}>
     {children}
   </div>
 )
 
 ImageFrame.propTypes = {
   children: node,
-  inverted: bool
+  inverse: bool
 }
 
 export default ImageFrame

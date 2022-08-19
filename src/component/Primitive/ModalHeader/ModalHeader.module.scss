@@ -59,10 +59,6 @@
   @include mq($breakpoint-desktop) {
     margin-right: spacing(4);
   }
-
-  @media (min-width: $breakpoint-desktopSmallMedium) and (min-aspect-ratio: 16/9) {
-    display: none;
-  }
 }
 
 .inverse {
