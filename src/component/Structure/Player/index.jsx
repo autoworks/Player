@@ -60,7 +60,7 @@ const Player = ({
   thumbnailRatio,
   watermark
 }) => {
-  const [showcaseActive, toggleShowcaseActive] = useState(false)
+  const [showcaseActive, toggleShowcaseActive] = useState(!!forceShowcase)
   const [activeItem, updateActiveItem] = useState({})
   const [availableTypes, setAvailableTypes] = useState([])
   const [splashComplete, setSplashComplete] = useState(false)
@@ -129,6 +129,10 @@ const Player = ({
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  useEffect(() => {
+    toggleShowcaseActive(!!forceShowcase)
+  }, [forceShowcase])
 
   useEffect(() => {
     if (items.length && initialIndex < items.length) {
@@ -234,7 +238,7 @@ const Player = ({
           )}
         </div>
         <Modal
-          open={showcaseActive || forceShowcase}
+          open={showcaseActive}
           ariaLabel="Showcase mode"
           onClose={handleModalClose}
           watermark={
