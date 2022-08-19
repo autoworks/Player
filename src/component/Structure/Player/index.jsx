@@ -60,7 +60,7 @@ const Player = ({
   thumbnailRatio,
   watermark
 }) => {
-  const [showcaseActive, toggleShowcaseActive] = useState(!!forceShowcase)
+  const [showcaseActive, toggleShowcaseActive] = useState(false)
   const [activeItem, updateActiveItem] = useState({})
   const [availableTypes, setAvailableTypes] = useState([])
   const [splashComplete, setSplashComplete] = useState(false)
@@ -234,7 +234,7 @@ const Player = ({
           )}
         </div>
         <Modal
-          open={showcaseActive}
+          open={showcaseActive || forceShowcase}
           ariaLabel="Showcase mode"
           onClose={handleModalClose}
           watermark={
