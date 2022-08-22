@@ -18,6 +18,7 @@ const Viewer = ({
   availableTypes,
   disableImageZoom,
   history,
+  hideThumbnails,
   inverse,
   items,
   onHotspotClick,
@@ -118,7 +119,7 @@ const Viewer = ({
     video: 'Video'
   }
 
-  const thumbnails = items.map((item, i) => {
+  let thumbnails = items.map((item, i) => {
     const key = `ViewerThumbnail:${i}`
     const hasHotspots =
       !!item.hotspots?.length ||
@@ -136,6 +137,8 @@ const Viewer = ({
       />
     )
   })
+
+  if (hideThumbnails) thumbnails = []
 
   return (
     <div className={styles.Viewer}>
@@ -182,6 +185,7 @@ Viewer.propTypes = {
   activeItem: object,
   availableTypes: array,
   disableImageZoom: bool,
+  hideThumbnails: bool,
   history: object,
   inverse: bool,
   items: array,

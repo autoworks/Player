@@ -108,6 +108,12 @@ HideBranding.args = {
   hideBranding: true
 }
 
+export const HideThumbnails = Template.bind({})
+HideThumbnails.args = {
+  ...Default.args,
+  hideThumbnails: true
+}
+
 export const Splash = Template.bind({})
 Splash.args = {
   ...Default.args,
@@ -143,4 +149,19 @@ ForceShowcaseNoItems.args = {
   ...Default.args,
   forceShowcase: true,
   items: []
+}
+
+export const ForceShowcaseNoItemsNoThumbnails = Template.bind({})
+ForceShowcaseNoItemsNoThumbnails.args = {
+  ...Default.args,
+  forceShowcase: true,
+  items: [],
+  hideThumbnails: true
+}
+
+export const ForceShowcasNoThumbnails = Template.bind({})
+ForceShowcasNoThumbnails.args = {
+  ...Default.args,
+  forceShowcase: true,
+  hideThumbnails: true
 }

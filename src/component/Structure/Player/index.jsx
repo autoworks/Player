@@ -35,6 +35,7 @@ const Player = ({
   containerClass,
   forceShowcase,
   hideBranding,
+  hideThumbnails,
   history,
   hotspotDebug,
   initialIndex,
@@ -155,6 +156,7 @@ const Player = ({
     activeItem,
     ratio,
     thumbnailRatio,
+    hideThumbnails,
     onNavChange: handleNavChange,
     onViewerChange: handleViewerChange,
     onHotspotClick: handleHotspotClick,
@@ -192,7 +194,7 @@ const Player = ({
         <div className={styles.PlayerContent}>
           <div className={styles.PlayerViewer}>
             {(!mounted || showcaseActive || items.length === 0) && (
-              <ViewerPlaceholder>
+              <ViewerPlaceholder hideThumbnails={hideThumbnails}>
                 <div style={{ textAlign: 'center' }}>
                   {!mounted && <Spinner />}
                   <noscript>
@@ -275,7 +277,7 @@ const Player = ({
           )}
 
           {forceShowcase && (!mounted || items.length === 0) && (
-            <ViewerPlaceholder inverse>
+            <ViewerPlaceholder inverse hideThumbnails={hideThumbnails}>
               <div style={{ textAlign: 'center' }}>
                 {!mounted && <Spinner />}
                 <noscript>
@@ -308,6 +310,7 @@ Player.propTypes = {
   }),
   containerClass: string,
   hideBranding: bool,
+  hideThumbnails: bool,
   history: object,
   hotspotDebug: bool,
   initialIndex: number,

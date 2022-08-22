@@ -88,6 +88,7 @@ declare module 'autoworks-player' {
         colors?: PlayerColors;
         containerClass?: string;
         hideBranding?: boolean;
+        hideThumbnails?: boolean;
         history?: Object;
         hotspotDebug?: boolean;
         initialIndex?: number;
