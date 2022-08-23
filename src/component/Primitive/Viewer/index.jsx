@@ -21,6 +21,7 @@ const Viewer = ({
   hideThumbnails,
   inverse,
   items,
+  onExteriorRotate,
   onHotspotClick,
   onNavChange,
   onVideoProgress,
@@ -57,6 +58,7 @@ const Viewer = ({
           ratio={ratio}
           scroll={rotatorScroll}
           onHotspotClick={onHotspotClick}
+          onRotate={onExteriorRotate}
           inactive={activeItem.type !== 'exterior'}
         />
       )
@@ -189,6 +191,7 @@ Viewer.propTypes = {
   history: object,
   inverse: bool,
   items: array,
+  onExteriorRotate: func,
   onHotspotClick: func,
   onNavChange: func,
   onVideoProgress: func,

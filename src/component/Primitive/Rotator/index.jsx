@@ -41,6 +41,7 @@ const Rotator = ({
   inactive,
   initialIndex,
   onHotspotClick,
+  onRotate,
   ratio,
   reverseDirection,
   scroll
@@ -63,7 +64,7 @@ const Rotator = ({
 
   const wrapper = useRef()
 
-  const handleImageChange = (i) => {
+  const handleImageChange = (i, oldFrame, playerAutoplay) => {
     if (i >= 0 && i < images.length) {
       updateActiveImageIndex(i)
     }
@@ -71,6 +72,10 @@ const Rotator = ({
     if (i === parseInt(initialIndex, 10)) {
       toggleAutoplay(false)
       setRevealHotspots(true)
+    }
+
+    if (!playerAutoplay && !autoplay) {
+      onRotate && onRotate({ newFrame: i, previousFrame: oldFrame })
     }
   }
 
@@ -219,6 +224,7 @@ Rotator.propTypes = {
   inactive: bool,
   initialIndex: number,
   onHotspotClick: func,
+  onRotate: func,
   ratio: number,
   reverseDirection: bool,
   scroll: bool

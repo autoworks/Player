@@ -120,6 +120,12 @@ Splash.args = {
   splashDuration: 2000
 }
 
+export const ExteriorRotateEvent = Template.bind({})
+ExteriorRotateEvent.args = {
+  ...Default.args,
+  onExteriorRotate: config.onExteriorRotate
+}
+
 export const NavChangeEvent = Template.bind({})
 NavChangeEvent.args = {
   ...Default.args,

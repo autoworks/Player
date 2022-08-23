@@ -53,7 +53,7 @@ const Rotation = ({
 
     if (newCurrent !== current) {
       setCurrent(newCurrent)
-      onChange(newCurrent)
+      onChange(newCurrent, current, autoplayActive)
     } else if (autoplayActive) {
       stop()
     }

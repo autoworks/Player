@@ -18,6 +18,10 @@ const config = {
 
   // styles: 'body { font-family: Impact, "FF Mark";}',
 
+  onExteriorRotate: ({ newFrame, previousFrame }) => {
+    console.log('Exterior rotated to frame', newFrame, 'from', previousFrame)
+  },
+
   onNavigation: ({ id, index, type }) => {
     console.log(`Navigated to “${id}” item at index ${index} (${type})`)
   },

@@ -101,6 +101,7 @@ declare module 'autoworks-player' {
         infoText?: string;
         infoTextSecondary?: string;
         infoHeightMatch?: boolean;
+        onExteriorRotate?: (...args: any[])=>any;
         onNavigation?: (...args: any[])=>any;
         onShowcaseEnter?: (...args: any[])=>any;
         onShowcaseExit?: (...args: any[])=>any;
