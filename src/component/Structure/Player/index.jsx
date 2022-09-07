@@ -53,6 +53,7 @@ const Player = ({
   showcaseHeading,
   splashDuration,
   thumbnailRatio,
+  topNav,
   watermark
 }) => {
   const [showcaseActive, toggleShowcaseActive] = useState(false)
@@ -143,7 +144,8 @@ const Player = ({
     onNavChange: handleNavChange,
     onViewerChange: handleViewerChange,
     onHotspotClick: handleHotspotClick,
-    onVideoProgress: onVideoProgress
+    onVideoProgress: onVideoProgress,
+    topNav
   }
   return (
     <HotspotDebugContextProvider active={hotspotDebug}>
@@ -302,6 +304,12 @@ Player.propTypes = {
   styles: string,
   thumbnailRatio: number,
   watermark: bool,
+  topNav: shape({
+    interiorCaption: string,
+    exteriorCaption: string,
+    videoCaption: string,
+    photoCaption: string
+  }),
   items: arrayOf(
     shape({ type: oneOf(['exterior', 'interior', 'photo', 'video']) })
   ).isRequired,
