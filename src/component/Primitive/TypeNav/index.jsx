@@ -1,5 +1,5 @@
 import React from 'react'
-import { array, bool, func, string } from 'prop-types'
+import { shape, array, bool, func, string } from 'prop-types'
 
 import ButtonGroup from '../ButtonGroup'
 
@@ -10,7 +10,13 @@ const typeMap = {
   video: { title: 'Video', icon: 'video' }
 }
 
-const TypeNav = ({ activeType, availableTypes, inverse, onChange }) => (
+const TypeNav = ({
+  activeType,
+  availableTypes,
+  inverse,
+  onChange,
+  topNav = {}
+}) => (
   <ButtonGroup inverse={inverse}>
     {availableTypes.map((type, i) => (
       <ButtonGroup.Item
@@ -19,7 +25,7 @@ const TypeNav = ({ activeType, availableTypes, inverse, onChange }) => (
         icon={typeMap[type].icon}
         onClick={() => onChange(type)}
       >
-        {typeMap[type].title}
+        {topNav[`${type}Caption`] || typeMap[type].title}
       </ButtonGroup.Item>
     ))}
   </ButtonGroup>
@@ -33,7 +39,13 @@ TypeNav.propTypes = {
   activeType: string,
   availableTypes: array,
   inverse: bool,
-  onChange: func
+  onChange: func,
+  topNav: shape({
+    interiorCaption: string,
+    exteriorCaption: string,
+    videoCaption: string,
+    photoCaption: string
+  })
 }
 
 export default TypeNav

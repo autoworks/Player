@@ -6,6 +6,13 @@ declare module 'autoworks-player' {
         accentText?: string;
     }
 
+    export interface PlayerTopNav {
+        interiorCaption?: string;
+        exteriorCaption?: string;
+        videoCaption?: string;
+        photoCaption?: string;
+    }
+
     export type PlayerItems = {
         type?: "photo";
         id?: string;
@@ -113,6 +120,7 @@ declare module 'autoworks-player' {
         styles?: string;
         thumbnailRatio?: number;
         watermark?: boolean;
+        topNav?: PlayerTopNav;
         items: PlayerItems[];
         modalZIndex?: number;
         forceShowcase?: boolean;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { array, func, string } from 'prop-types'
+import { shape, array, func, string } from 'prop-types'
 
 import styles from './ViewerHeader.module.scss'
 
@@ -8,7 +8,13 @@ import Icon from '../Icon'
 import Inline from '../Inline'
 import TypeNav from '../TypeNav'
 
-const ViewerHeader = ({ activeType, availableTypes, onChange, onZoom }) => (
+const ViewerHeader = ({
+  activeType,
+  availableTypes,
+  onChange,
+  onZoom,
+  topNav
+}) => (
   <div className={styles.ViewerHeader}>
     <Inline>
       <ButtonGroup inverse>
@@ -24,6 +30,7 @@ const ViewerHeader = ({ activeType, availableTypes, onChange, onZoom }) => (
             activeType={activeType}
             inverse
             onChange={onChange}
+            topNav={topNav}
           />
         </div>
       )}
@@ -39,7 +46,13 @@ ViewerHeader.propTypes = {
   activeType: string,
   availableTypes: array,
   onChange: func,
-  onZoom: func
+  onZoom: func,
+  topNav: shape({
+    interiorCaption: string,
+    exteriorCaption: string,
+    videoCaption: string,
+    photoCaption: string
+  })
 }
 
 export default ViewerHeader
