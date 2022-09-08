@@ -1,6 +1,15 @@
 import React from 'react'
 import classNames from 'classnames'
-import { array, bool, func, node, number, object } from 'prop-types'
+import {
+  shape,
+  array,
+  bool,
+  func,
+  node,
+  number,
+  object,
+  string
+} from 'prop-types'
 
 import styles from './Viewer.module.scss'
 
@@ -29,6 +38,7 @@ const Viewer = ({
   ratio,
   showcase,
   thumbnailRatio,
+  topNav,
   interiorMouseZoom,
   watermark
 }) => {
@@ -156,6 +166,7 @@ const Viewer = ({
           activeType={activeItem.type}
           onChange={onNavChange}
           onZoom={onZoom}
+          topNav={topNav}
         />
       )}
       <div
@@ -194,6 +205,12 @@ Viewer.propTypes = {
   rotatorScroll: bool,
   showcase: bool,
   thumbnailRatio: number,
+  topNav: shape({
+    interiorCaption: string,
+    exteriorCaption: string,
+    videoCaption: string,
+    photoCaption: string
+  }),
   interiorMouseZoom: bool,
   watermark: node
 }
