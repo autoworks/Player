@@ -1,19 +1,22 @@
 import React from 'react'
-import { node } from 'prop-types'
+import { node, bool } from 'prop-types'
+import classNames from 'classnames'
 
 import styles from './ImageFrame.module.scss'
-
 /**
  * Creates an area of a fixed ratio, then resizes images within to stay
  * within the bounds of the area, without stretching smaller images.
  */
 
-const ImageFrame = ({ children }) => (
-  <div className={styles.ImageFrame}>{children}</div>
+const ImageFrame = ({ children, inverse }) => (
+  <div className={classNames(styles.ImageFrame, inverse && styles.Inverse)}>
+    {children}
+  </div>
 )
 
 ImageFrame.propTypes = {
-  children: node
+  children: node,
+  inverse: bool
 }
 
 export default ImageFrame

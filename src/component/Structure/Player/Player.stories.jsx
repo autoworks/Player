@@ -108,10 +108,22 @@ HideBranding.args = {
   hideBranding: true
 }
 
+export const HideThumbnails = Template.bind({})
+HideThumbnails.args = {
+  ...Default.args,
+  hideThumbnails: true
+}
+
 export const Splash = Template.bind({})
 Splash.args = {
   ...Default.args,
   splashDuration: 2000
+}
+
+export const ExteriorRotateEvent = Template.bind({})
+ExteriorRotateEvent.args = {
+  ...Default.args,
+  onExteriorRotate: config.onExteriorRotate
 }
 
 export const NavChangeEvent = Template.bind({})
@@ -130,4 +142,32 @@ export const History = Template.bind({})
 History.args = {
   ...Default.args,
   history: { replaceState: false, key: 'item' }
+}
+
+export const ForceShowcase = Template.bind({})
+ForceShowcase.args = {
+  ...Default.args,
+  forceShowcase: true
+}
+
+export const ForceShowcaseNoItems = Template.bind({})
+ForceShowcaseNoItems.args = {
+  ...Default.args,
+  forceShowcase: true,
+  items: []
+}
+
+export const ForceShowcaseNoItemsNoThumbnails = Template.bind({})
+ForceShowcaseNoItemsNoThumbnails.args = {
+  ...Default.args,
+  forceShowcase: true,
+  items: [],
+  hideThumbnails: true
+}
+
+export const ForceShowcasNoThumbnails = Template.bind({})
+ForceShowcasNoThumbnails.args = {
+  ...Default.args,
+  forceShowcase: true,
+  hideThumbnails: true
 }

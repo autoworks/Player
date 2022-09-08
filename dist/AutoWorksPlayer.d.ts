@@ -13,14 +13,89 @@ declare module 'autoworks-player' {
         photoCaption?: string;
     }
 
-    export interface PlayerItems {
-        type?: "exterior" | "interior" | "photo" | "video";
-    }
+    export type PlayerItems = {
+        type?: "photo";
+        id?: string;
+        thumbnail?: string;
+        hasHotspot?: boolean;
+        alt?: string;
+        caption?: string;
+        controls?: boolean;
+        defaultScale?: number;
+        hotspots?: any[];
+        loading?: boolean;
+        max?: number;
+        min?: number;
+        minimap: string;
+        onHotspotClick?: (...args: any[])=>any;
+        ratio?: number;
+        src: string;
+        srcSet?: any;
+        step?: number;
+        disableZoom?: boolean;
+        priorityLoading?: boolean;
+    } | {
+        type?: "exterior";
+        id?: string;
+        thumbnail?: string;
+        caption?: string;
+        hasHotspot?: boolean;
+        alt?: string;
+        hotspotDebug?: boolean;
+        images?: {
+            src: string;
+            srcSet?: any;
+            hotspots?: any[];
+        }[];
+        inactive?: boolean;
+        initialIndex?: number;
+        onHotspotClick?: (...args: any[])=>any;
+        ratio?: number;
+        reverseDirection?: boolean;
+        scroll?: boolean;
+    } | {
+        type?: "interior";
+        id?: string;
+        thumbnail?: string;
+        caption?: string;
+        hasHotspot?: boolean;
+        alt?: string;
+        controls?: boolean;
+        hotspotDebug?: boolean;
+        hotspots?: any[];
+        inactive?: boolean;
+        onHotspotClick?: (...args: any[])=>any;
+        poster: string;
+        ratio?: number;
+        src: string;
+        mouseZoom?: boolean;
+        minHfov?: number;
+        maxHfov?: number;
+        hfov?: number;
+        pitch?: number;
+        yaw?: number;
+    } | {
+        type?: "video";
+        id?: string;
+        thumbnail?: string;
+        caption?: string;
+        hasHotspot?: boolean;
+        alt?: string;
+        aspectRatio?: number;
+        autoplay?: boolean;
+        disabled?: boolean;
+        inverse?: boolean;
+        onProgress?: (...args: any[])=>any;
+        poster: string;
+        ratio?: number;
+        src: string;
+    };
 
     export interface PlayerProps {
         colors?: PlayerColors;
         containerClass?: string;
         hideBranding?: boolean;
+        hideThumbnails?: boolean;
         history?: Object;
         hotspotDebug?: boolean;
         initialIndex?: number;
@@ -33,6 +108,7 @@ declare module 'autoworks-player' {
         infoText?: string;
         infoTextSecondary?: string;
         infoHeightMatch?: boolean;
+        onExteriorRotate?: (...args: any[])=>any;
         onNavigation?: (...args: any[])=>any;
         onShowcaseEnter?: (...args: any[])=>any;
         onShowcaseExit?: (...args: any[])=>any;
@@ -47,6 +123,7 @@ declare module 'autoworks-player' {
         topNav?: PlayerTopNav;
         items: PlayerItems[];
         modalZIndex?: number;
+        forceShowcase?: boolean;
     }
 
     const Player: React.FC<PlayerProps>;

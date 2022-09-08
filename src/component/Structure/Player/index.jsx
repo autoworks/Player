@@ -7,8 +7,10 @@ import {
   number,
   object,
   oneOf,
+  oneOfType,
   shape,
-  string
+  string,
+  objectOf
 } from 'prop-types'
 import classNames from 'classnames'
 import minifyCssString from '@/lib/css-string-minifier'
@@ -25,11 +27,15 @@ import Spinner from '@/component/Primitive/Spinner'
 import Splash from '@/component/Primitive/Splash'
 import Viewer from '@/component/Primitive/Viewer'
 import ViewerPlaceholder from '@/component/Primitive/ViewerPlaceholder'
+import shapeHotspotStandard from '@/shape/hotspot-standard'
+import shapeHotspotInterior from '@/shape/hotspot-interior'
 
 const Player = ({
   colors,
   containerClass,
+  forceShowcase,
   hideBranding,
+  hideThumbnails,
   history,
   hotspotDebug,
   initialIndex,
@@ -44,6 +50,7 @@ const Player = ({
   infoHeightMatch,
   items,
   modalZIndex,
+  onExteriorRotate,
   onNavigation,
   onShowcaseEnter,
   onShowcaseExit,
@@ -56,7 +63,7 @@ const Player = ({
   topNav,
   watermark
 }) => {
-  const [showcaseActive, toggleShowcaseActive] = useState(false)
+  const [showcaseActive, toggleShowcaseActive] = useState(!!forceShowcase)
   const [activeItem, updateActiveItem] = useState({})
   const [availableTypes, setAvailableTypes] = useState([])
   const [splashComplete, setSplashComplete] = useState(false)
@@ -72,11 +79,17 @@ const Player = ({
       infoTextSecondary
 
   const handleModalClose = () => {
+    if (forceShowcase) {
+      return
+    }
     toggleShowcaseActive(false)
     onShowcaseExit && onShowcaseExit()
   }
 
   const handleModalOpen = () => {
+    if (forceShowcase) {
+      return
+    }
     toggleShowcaseActive(true)
     onShowcaseEnter && onShowcaseEnter()
   }
@@ -121,6 +134,10 @@ const Player = ({
   }, [])
 
   useEffect(() => {
+    toggleShowcaseActive(!!forceShowcase)
+  }, [forceShowcase])
+
+  useEffect(() => {
     if (items.length && initialIndex < items.length) {
       handleSetAvailableTypes(items)
       handleNavChange(items[initialIndex].type)
@@ -141,6 +158,8 @@ const Player = ({
     activeItem,
     ratio,
     thumbnailRatio,
+    hideThumbnails,
+    onExteriorRotate: onExteriorRotate,
     onNavChange: handleNavChange,
     onViewerChange: handleViewerChange,
     onHotspotClick: handleHotspotClick,
@@ -179,7 +198,7 @@ const Player = ({
         <div className={styles.PlayerContent}>
           <div className={styles.PlayerViewer}>
             {(!mounted || showcaseActive || items.length === 0) && (
-              <ViewerPlaceholder>
+              <ViewerPlaceholder hideThumbnails={hideThumbnails}>
                 <div style={{ textAlign: 'center' }}>
                   {!mounted && <Spinner />}
                   <noscript>
@@ -235,6 +254,7 @@ const Player = ({
           }
           colors={mergedColors}
           zIndex={modalZIndex}
+          animated={!forceShowcase}
         >
           <ModalHeader
             availableTypes={availableTypes}
@@ -242,7 +262,7 @@ const Player = ({
             onChange={handleNavChange}
             heading={showcaseHeading}
             description={showcaseDescription}
-            onClose={handleModalClose}
+            onClose={!forceShowcase ? handleModalClose : undefined}
             inverse
           />
           {mounted && showcaseActive && (
@@ -258,6 +278,19 @@ const Player = ({
                 )
               }
             />
+          )}
+
+          {forceShowcase && (!mounted || items.length === 0) && (
+            <ViewerPlaceholder inverse hideThumbnails={hideThumbnails}>
+              <div style={{ textAlign: 'center' }}>
+                {!mounted && <Spinner />}
+                <noscript>
+                  <div>
+                    This functionality requires JavaScript to be enabled
+                  </div>
+                </noscript>
+              </div>
+            </ViewerPlaceholder>
           )}
         </Modal>
       </div>
@@ -281,6 +314,7 @@ Player.propTypes = {
   }),
   containerClass: string,
   hideBranding: bool,
+  hideThumbnails: bool,
   history: object,
   hotspotDebug: bool,
   initialIndex: number,
@@ -293,6 +327,7 @@ Player.propTypes = {
   infoText: string,
   infoTextSecondary: string,
   infoHeightMatch: bool,
+  onExteriorRotate: func,
   onNavigation: func,
   onShowcaseEnter: func,
   onShowcaseExit: func,
@@ -311,9 +346,93 @@ Player.propTypes = {
     photoCaption: string
   }),
   items: arrayOf(
-    shape({ type: oneOf(['exterior', 'interior', 'photo', 'video']) })
+    oneOfType([
+      shape({
+        type: oneOf(['photo']),
+        id: string,
+        thumbnail: string,
+        hasHotspot: bool,
+        alt: string,
+        caption: string,
+        controls: bool,
+        defaultScale: number,
+        hotspots: arrayOf(shape(shapeHotspotStandard)),
+        loading: bool,
+        max: number,
+        min: number,
+        minimap: string.isRequired,
+        onHotspotClick: func,
+        ratio: number,
+        src: string.isRequired,
+        srcSet: objectOf(string),
+        step: number,
+        disableZoom: bool,
+        priorityLoading: bool
+      }),
+      shape({
+        type: oneOf(['exterior']),
+        id: string,
+        thumbnail: string,
+        caption: string,
+        hasHotspot: bool,
+        alt: string,
+        hotspotDebug: bool,
+        images: arrayOf(
+          shape({
+            src: string.isRequired,
+            srcSet: objectOf(string),
+            hotspots: arrayOf(shape(shapeHotspotStandard))
+          })
+        ),
+        inactive: bool,
+        initialIndex: number,
+        onHotspotClick: func,
+        ratio: number,
+        reverseDirection: bool,
+        scroll: bool
+      }),
+      shape({
+        type: oneOf(['interior']),
+        id: string,
+        thumbnail: string,
+        caption: string,
+        hasHotspot: bool,
+        alt: string,
+        controls: bool,
+        hotspotDebug: bool,
+        hotspots: arrayOf(shape(shapeHotspotInterior)),
+        inactive: bool,
+        onHotspotClick: func,
+        poster: string.isRequired,
+        ratio: number,
+        src: string.isRequired,
+        mouseZoom: bool,
+        minHfov: number,
+        maxHfov: number,
+        hfov: number,
+        pitch: number,
+        yaw: number
+      }),
+      shape({
+        type: oneOf(['video']),
+        id: string,
+        thumbnail: string,
+        caption: string,
+        hasHotspot: bool,
+        alt: string,
+        aspectRatio: number,
+        autoplay: bool,
+        disabled: bool,
+        inverse: bool,
+        onProgress: func,
+        poster: string.isRequired,
+        ratio: number,
+        src: string.isRequired
+      })
+    ])
   ).isRequired,
-  modalZIndex: number
+  modalZIndex: number,
+  forceShowcase: bool
 }
 
 export default Player

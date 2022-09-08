@@ -10,8 +10,10 @@ import FocusTrap from 'focus-trap-react'
 import styles from './Modal.module.scss'
 
 import VisuallyHidden from '../VisuallyHidden'
+import classNames from 'classnames'
 
 const Modal = ({
+  animated,
   ariaLabel,
   children,
   onClose,
@@ -55,7 +57,12 @@ const Modal = ({
       />
       <FocusTrap>
         <div className={styles.ModalInner}>
-          <div className={styles.ModalBg} />
+          <div
+            className={classNames(
+              styles.ModalBg,
+              animated && styles.ModalBgAnimated
+            )}
+          />
           <div className={styles.ModalContent} ref={ref}>
             <VisuallyHidden>
               <button name="modal-content" tabIndex="0">
@@ -77,7 +84,7 @@ Modal.defaultProps = {
 }
 
 Modal.propTypes = {
-  actions: node,
+  animated: bool,
   ariaLabel: string.isRequired,
   children: node.isRequired,
   onClose: func,

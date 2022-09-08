@@ -27,8 +27,10 @@ const Viewer = ({
   availableTypes,
   disableImageZoom,
   history,
+  hideThumbnails,
   inverse,
   items,
+  onExteriorRotate,
   onHotspotClick,
   onNavChange,
   onVideoProgress,
@@ -66,6 +68,7 @@ const Viewer = ({
           ratio={ratio}
           scroll={rotatorScroll}
           onHotspotClick={onHotspotClick}
+          onRotate={onExteriorRotate}
           inactive={activeItem.type !== 'exterior'}
         />
       )
@@ -128,7 +131,7 @@ const Viewer = ({
     video: 'Video'
   }
 
-  const thumbnails = items.map((item, i) => {
+  let thumbnails = items.map((item, i) => {
     const key = `ViewerThumbnail:${i}`
     const hasHotspots =
       !!item.hotspots?.length ||
@@ -146,6 +149,8 @@ const Viewer = ({
       />
     )
   })
+
+  if (hideThumbnails) thumbnails = []
 
   return (
     <div className={styles.Viewer}>
@@ -193,9 +198,11 @@ Viewer.propTypes = {
   activeItem: object,
   availableTypes: array,
   disableImageZoom: bool,
+  hideThumbnails: bool,
   history: object,
   inverse: bool,
   items: array,
+  onExteriorRotate: func,
   onHotspotClick: func,
   onNavChange: func,
   onVideoProgress: func,

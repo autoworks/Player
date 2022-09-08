@@ -33,15 +33,17 @@ const ModalHeader = ({
         />
       </div>
     )}
-    <div>
-      <IconButton
-        type="button"
-        icon="close"
-        a11yText="Close Modal"
-        onClick={onClose}
-        small
-      />
-    </div>
+    {onClose && (
+      <div>
+        <IconButton
+          type="button"
+          icon="close"
+          a11yText="Close Modal"
+          onClick={onClose}
+          small
+        />
+      </div>
+    )}
   </div>
 )
 

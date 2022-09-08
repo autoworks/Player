@@ -71,6 +71,17 @@ stories.add('Dialog', () => (
   </Modal>
 ))
 
+stories.add('Animated', () => (
+  <Modal
+    open
+    onClose={action('Close clicked')}
+    ariaLabel="Example Modal"
+    animated
+  >
+    Example Content
+  </Modal>
+))
+
 stories.add('With Heading', () => (
   <Modal
     heading="Example Heading"
