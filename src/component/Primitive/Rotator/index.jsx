@@ -57,6 +57,7 @@ const Rotator = ({
   const [loadedImages, updateLoadedImages] = useState([])
   const [isFirefox, setIsFirefox] = useState(false)
   const [wrapperWidth, updateWrapperWidth] = useState(0)
+  const [hasRotated, setHasRotated] = useState(false)
 
   useEffect(() => {
     updateWrapperWidth(wrapper.current.clientWidth)
@@ -74,8 +75,9 @@ const Rotator = ({
       setRevealHotspots(true)
     }
 
-    if (!playerAutoplay && !autoplay) {
-      onRotate && onRotate({ newFrame: i, previousFrame: oldFrame })
+    if (!playerAutoplay && !autoplay && onRotate) {
+      onRotate({ newFrame: i, previousFrame: oldFrame })
+      setHasRotated(true)
     }
   }
 
@@ -200,6 +202,12 @@ const Rotator = ({
           </div>
         )}
       </ResponsiveMedia>
+      {loadingComplete && !hasRotated && (
+        <div className={styles.UserInteractionHelper}>
+          <img src="swipe-animation.apng" alt="" />
+          <span>Swipe to spin</span>
+        </div>
+      )}
     </div>
   )
 }
