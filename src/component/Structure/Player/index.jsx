@@ -61,7 +61,8 @@ const Player = ({
   splashDuration,
   thumbnailRatio,
   topNav,
-  watermark
+  watermark,
+  useSwipeToSpin
 }) => {
   const [showcaseActive, toggleShowcaseActive] = useState(!!forceShowcase)
   const [activeItem, updateActiveItem] = useState({})
@@ -164,7 +165,8 @@ const Player = ({
     onViewerChange: handleViewerChange,
     onHotspotClick: handleHotspotClick,
     onVideoProgress: onVideoProgress,
-    topNav
+    topNav,
+    useSwipeToSpin
   }
   return (
     <HotspotDebugContextProvider active={hotspotDebug}>
@@ -432,7 +434,8 @@ Player.propTypes = {
     ])
   ).isRequired,
   modalZIndex: number,
-  forceShowcase: bool
+  forceShowcase: bool,
+  useSwipeToSpin: bool
 }
 
 export default Player

@@ -42,7 +42,8 @@ const Viewer = ({
   thumbnailRatio,
   topNav,
   interiorMouseZoom,
-  watermark
+  watermark,
+  useSwipeToSpin
 }) => {
   const slides = items.map((item, i) => {
     const key = `ViewerSlide:${i}`
@@ -70,6 +71,7 @@ const Viewer = ({
           onHotspotClick={onHotspotClick}
           onRotate={onExteriorRotate}
           inactive={activeItem.type !== 'exterior'}
+          useSwipeToSpin={useSwipeToSpin}
         />
       )
     if (item.type === 'interior')
@@ -219,7 +221,8 @@ Viewer.propTypes = {
     photoCaption: string
   }),
   interiorMouseZoom: bool,
-  watermark: node
+  watermark: node,
+  useSwipeToSpin: bool
 }
 
 export default Viewer

@@ -44,7 +44,8 @@ const Rotator = ({
   onRotate,
   ratio,
   reverseDirection,
-  scroll
+  scroll,
+  useSwipeToSpin
 }) => {
   const loadingTimeout = 5000
   const [activeImageIndex, updateActiveImageIndex] = useState(0)
@@ -202,7 +203,7 @@ const Rotator = ({
           </div>
         )}
       </ResponsiveMedia>
-      {loadingComplete && !hasRotated && (
+      {useSwipeToSpin && loadingComplete && !hasRotated && (
         <div className={styles.UserInteractionHelper}>
           <img src="swipe-animation.apng" alt="" />
           <span>Swipe to spin</span>
@@ -235,7 +236,8 @@ Rotator.propTypes = {
   onRotate: func,
   ratio: number,
   reverseDirection: bool,
-  scroll: bool
+  scroll: bool,
+  useSwipeToSpin: bool
 }
 
 export default Rotator

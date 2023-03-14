@@ -76,6 +76,12 @@ Color.args = {
   colors: config.colors
 }
 
+export const UseSwipeToSpin = Template.bind({})
+UseSwipeToSpin.args = {
+  ...Default.args,
+  useSwipeToSpin: true
+}
+
 // export const CustomStyles = Template.bind({})
 // CustomStyles.args = {
 //   ...Default.args,
