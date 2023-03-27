@@ -124,6 +124,7 @@ declare module 'autoworks-player' {
         items: PlayerItems[];
         modalZIndex?: number;
         forceShowcase?: boolean;
+        useSwipeToSpin?: boolean;
     }
 
     const Player: React.FC<PlayerProps>;
