@@ -53,6 +53,15 @@ module.exports = ({ config, mode }) => {
     ]
   })
 
+  config.module.rules.unshift({
+    test: /\.(apng|png|jpe?g|gif)$/i,
+    use: [
+      {
+        loader: 'file-loader'
+      }
+    ]
+  })
+
   config.resolve.alias['@'] = path.join(__dirname, '../src')
 
   return config

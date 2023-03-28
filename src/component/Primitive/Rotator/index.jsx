@@ -21,6 +21,7 @@ import ResponsiveMedia from '../ResponsiveMedia'
 import ResponsiveImage from '../ResponsiveImage'
 import LoadingProgress from '../LoadingProgress'
 import VisuallyHidden from '../VisuallyHidden'
+import swipeAnimation from './swipe-animation.apng'
 
 // This component uses Firefox browser detection :(
 // It's a work-around to overcome a bug where images don't render quickly enough
@@ -205,7 +206,7 @@ const Rotator = ({
       </ResponsiveMedia>
       {useSwipeToSpin && loadingComplete && !hasRotated && (
         <div className={styles.UserInteractionHelper}>
-          <img src="swipe-animation.apng" alt="" />
+          <img src={swipeAnimation} alt="" />
           <span>Swipe to spin</span>
         </div>
       )}

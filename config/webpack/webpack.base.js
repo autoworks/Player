@@ -68,6 +68,14 @@ module.exports = {
                 }
               }
             ]
+          },
+          {
+            test: /\.(apng|png|jpe?g|gif)$/i,
+            use: [
+              {
+                loader: 'file-loader'
+              }
+            ]
           }
         ]
       }
