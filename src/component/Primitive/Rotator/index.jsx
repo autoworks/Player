@@ -154,6 +154,7 @@ const Rotator = ({
                   <div key={`RotatorImage${i}`}>
                     <ResponsiveImage
                       alt=""
+                      className={styles.RotatorImage}
                       srcSet={
                         image.srcSet &&
                         Object.entries(image.srcSet).map((src) => {

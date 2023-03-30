@@ -14,7 +14,8 @@ const ResponsiveImage = ({
   sizes,
   src,
   srcSet,
-  width
+  width,
+  className
 }) => (
   <img
     alt={alt}
@@ -26,6 +27,7 @@ const ResponsiveImage = ({
     src={src}
     sizes={sizes && sizes.join(',')}
     srcSet={srcSet && srcSetFormatter(srcSet)}
+    className={className}
   />
 )
 
@@ -38,7 +40,8 @@ ResponsiveImage.propTypes = {
   sizes: arrayOf(string),
   src: string.isRequired,
   srcSet: arrayOf(shape({ width: number.isRequired, src: string.isRequired })),
-  width: number.isRequired
+  width: number.isRequired,
+  className: string
 }
 
 export default ResponsiveImage
