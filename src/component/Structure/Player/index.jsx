@@ -250,9 +250,7 @@ const Player = ({
           ariaLabel="Showcase mode"
           onClose={handleModalClose}
           watermark={
-            watermark && (
-              <Icon type="autoloadit" a11yText="AutoLoadIt" width={150} />
-            )
+            watermark && <Icon type="logo" a11yText="Auto.Works" width={150} />
           }
           colors={mergedColors}
           zIndex={modalZIndex}
@@ -276,7 +274,7 @@ const Player = ({
               interiorMouseZoom
               watermark={
                 watermark && (
-                  <Icon type="autoloadit" a11yText="AutoLoadIt" width={150} />
+                  <Icon type="logo" a11yText="Auto.Works" width={150} />
                 )
               }
             />
